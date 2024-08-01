@@ -1,0 +1,3 @@
+[console_scripts]
+HelloWorldPublisher = simple_pkg.pub:main
+

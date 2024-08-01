@@ -1,0 +1,35 @@
+[0.019s] Invoking command in '/home/nipun/ros2RB_ws/build/assignment1_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nipun/ros2RB_ws/install/simple_pkg:/home/nipun/ros2RB_ws/install/assignment1:/home/nipun/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nipun/ros2RB_ws/build/assignment1_cpp -- -j3 -l3
+[0.069s] [35m[1mConsolidate compiler generated dependencies of target temp_analysis[0m
+[0.091s] [ 50%] Built target temp_pub
+[0.095s] [ 75%] [32mBuilding CXX object CMakeFiles/temp_analysis.dir/src/temp_analysis.cpp.o[0m
+[2.967s] [01m[K/home/nipun/ros2RB_ws/assignment1_cpp/src/temp_analysis.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.968s] [01m[K/home/nipun/ros2RB_ws/assignment1_cpp/src/temp_analysis.cpp:53:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.968s]    53 | int main([01;35m[Kint argc[m[K, char * argv[])
+[2.968s]       |          [01;35m[K~~~~^~~~[m[K
+[2.968s] [01m[K/home/nipun/ros2RB_ws/assignment1_cpp/src/temp_analysis.cpp:53:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.968s]    53 | int main(int argc, [01;35m[Kchar * argv[][m[K)
+[2.968s]       |                    [01;35m[K~~~~~~~^~~~~~[m[K
+[5.486s] [100%] [32m[1mLinking CXX executable temp_analysis[0m
+[5.627s] [100%] Built target temp_analysis
+[5.638s] Invoked command in '/home/nipun/ros2RB_ws/build/assignment1_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nipun/ros2RB_ws/install/simple_pkg:/home/nipun/ros2RB_ws/install/assignment1:/home/nipun/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nipun/ros2RB_ws/build/assignment1_cpp -- -j3 -l3
+[5.677s] Invoking command in '/home/nipun/ros2RB_ws/build/assignment1_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nipun/ros2RB_ws/install/simple_pkg:/home/nipun/ros2RB_ws/install/assignment1:/home/nipun/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/nipun/ros2RB_ws/build/assignment1_cpp
+[5.687s] -- Install configuration: ""
+[5.687s] -- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/lib/assignment1_cpp/temp_pub
+[5.687s] -- Installing: /home/nipun/ros2RB_ws/install/assignment1_cpp/lib/assignment1_cpp/temp_analysis
+[5.688s] -- Set runtime path of "/home/nipun/ros2RB_ws/install/assignment1_cpp/lib/assignment1_cpp/temp_analysis" to ""
+[5.688s] -- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/ament_index/resource_index/package_run_dependencies/assignment1_cpp
+[5.688s] -- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/ament_index/resource_index/parent_prefix_path/assignment1_cpp
+[5.688s] -- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/environment/ament_prefix_path.sh
+[5.688s] -- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/environment/ament_prefix_path.dsv
+[5.688s] -- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/environment/path.sh
+[5.688s] -- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/environment/path.dsv
+[5.688s] -- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/local_setup.bash
+[5.688s] -- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/local_setup.sh
+[5.688s] -- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/local_setup.zsh
+[5.689s] -- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/local_setup.dsv
+[5.689s] -- Installing: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/package.dsv
+[5.689s] -- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/ament_index/resource_index/packages/assignment1_cpp
+[5.689s] -- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/cmake/assignment1_cppConfig.cmake
+[5.689s] -- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/cmake/assignment1_cppConfig-version.cmake
+[5.690s] -- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/package.xml
+[5.690s] Invoked command in '/home/nipun/ros2RB_ws/build/assignment1_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nipun/ros2RB_ws/install/simple_pkg:/home/nipun/ros2RB_ws/install/assignment1:/home/nipun/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/nipun/ros2RB_ws/build/assignment1_cpp

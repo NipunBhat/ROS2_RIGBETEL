@@ -1,0 +1,22 @@
+[0.014s] Invoking command in '/home/nipun/ros2RB_ws/build/assignment1_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nipun/ros2RB_ws/install/simple_pkg:/home/nipun/ros2RB_ws/install/assignment1:/home/nipun/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nipun/ros2RB_ws/build/assignment1_cpp -- -j3 -l3
+[0.066s] [35m[1mConsolidate compiler generated dependencies of target status_sub[0m
+[0.069s] [35m[1mConsolidate compiler generated dependencies of target temp_analysis[0m
+[0.090s] [ 33%] Built target temp_pub
+[0.092s] [ 50%] [32mBuilding CXX object CMakeFiles/temp_analysis.dir/src/temp_analysis.cpp.o[0m
+[0.099s] [ 66%] [32mBuilding CXX object CMakeFiles/status_sub.dir/src/status_sub.cpp.o[0m
+[3.204s] [01m[K/home/nipun/ros2RB_ws/assignment1_cpp/src/temp_analysis.cpp:[m[K In member function ‘[01m[Kvoid CTempPub::_analyseTemp(FLOAT32)[m[K’:
+[3.204s] [01m[K/home/nipun/ros2RB_ws/assignment1_cpp/src/temp_analysis.cpp:45:24:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd_msgs::msg::Float32_<std::allocator<void> >[m[K’ to ‘[01m[Kconst BOOL&[m[K’ {aka ‘[01m[Kconst std_msgs::msg::Bool_<std::allocator<void> >&[m[K’}
+[3.204s]    45 |         _publishStatus([01;31m[Kstatus[m[K);
+[3.205s]       |                        [01;31m[K^~~~~~[m[K
+[3.205s]       |                        [01;31m[K|[m[K
+[3.205s]       |                        [01;31m[Kstd_msgs::msg::Float32_<std::allocator<void> >[m[K
+[3.205s] [01m[K/home/nipun/ros2RB_ws/assignment1_cpp/src/temp_analysis.cpp:48:37:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid CTempPub::_publishStatus(const BOOL&)[m[K’
+[3.205s]    48 |     void _publishStatus([01;36m[Kconst BOOL &status[m[K)
+[3.205s]       |                         [01;36m[K~~~~~~~~~~~~^~~~~~[m[K
+[6.198s] gmake[2]: *** [CMakeFiles/temp_analysis.dir/build.make:76: CMakeFiles/temp_analysis.dir/src/temp_analysis.cpp.o] Error 1
+[6.199s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/temp_analysis.dir/all] Error 2
+[6.199s] gmake[1]: *** Waiting for unfinished jobs....
+[9.839s] [ 83%] [32m[1mLinking CXX executable status_sub[0m
+[10.276s] [ 83%] Built target status_sub
+[10.279s] gmake: *** [Makefile:146: all] Error 2
+[10.280s] Invoked command in '/home/nipun/ros2RB_ws/build/assignment1_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nipun/ros2RB_ws/install/simple_pkg:/home/nipun/ros2RB_ws/install/assignment1:/home/nipun/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nipun/ros2RB_ws/build/assignment1_cpp -- -j3 -l3

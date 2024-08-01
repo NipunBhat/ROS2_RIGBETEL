@@ -1,0 +1,88 @@
+[0.000000] (-) TimerEvent: {}
+[0.000251] (-) JobUnselected: {'identifier': 'simple_pkg'}
+[0.000293] (simple_pkg_cpp) JobQueued: {'identifier': 'simple_pkg_cpp', 'dependencies': OrderedDict()}
+[0.000329] (simple_pkg_cpp) JobStarted: {'identifier': 'simple_pkg_cpp'}
+[0.008889] (simple_pkg_cpp) JobProgress: {'identifier': 'simple_pkg_cpp', 'progress': 'cmake'}
+[0.010513] (simple_pkg_cpp) JobProgress: {'identifier': 'simple_pkg_cpp', 'progress': 'build'}
+[0.010567] (simple_pkg_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nipun/ros2RB_ws/build/simple_pkg_cpp', '--', '-j3', '-l3'], 'cwd': '/home/nipun/ros2RB_ws/build/simple_pkg_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nipun'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nipun/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nipun'), ('OLDPWD', '/home/nipun/ros2RB_ws/simple_pkg_cpp'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1449'), ('SYSTEMD_EXEC_PID', '1806'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2919'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nipun/ros2RB_ws/install:/home/nipun/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nipun'), ('JOURNAL_STREAM', '8:23004'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nipun'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nipun-virtual-machine:@/tmp/.ICE-unix/1580,unix/nipun-virtual-machine:/tmp/.ICE-unix/1580'), ('INVOCATION_ID', '95166e5a2ecc4846a68afe63ed9b35b0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.C6HOR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nipun/ros2RB_ws/install/simple_pkg_cpp:/home/nipun/ros2RB_ws/install/simple_pkg:/home/nipun/ros2RB_ws/install/learningPubSubPkg:/home/nipun/ros2_ws/install/my_robot_bringup:/home/nipun/ros2_ws/install/my_py_pkg:/home/nipun/ros2_ws/install/my_cpp_pkg:/home/nipun/ros2_ws/install/my_robot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:5c6d5006-05bc-4e29-970a-0301861bd075'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nipun/ros2RB_ws/build/simple_pkg_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nipun/ros2RB_ws/install/simple_pkg/lib/python3.10/site-packages:/home/nipun/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/nipun/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nipun/ros2RB_ws/install/simple_pkg_cpp:/home/nipun/ros2RB_ws/install/learningPubSubPkg:/home/nipun/ros2_ws/install/my_robot_bringup:/home/nipun/ros2_ws/install/my_cpp_pkg:/home/nipun/ros2_ws/install/my_robot_interfaces:/home/nipun/ros2RB_ws/install/simple_pkg:/home/nipun/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.060985] (simple_pkg_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target HelloWorldPublisherCpp\x1b[0m\n'}
+[0.080703] (simple_pkg_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/HelloWorldPublisherCpp.dir/src/publisher.cpp.o\x1b[0m\n'}
+[0.099009] (-) TimerEvent: {}
+[0.199211] (-) TimerEvent: {}
+[0.299484] (-) TimerEvent: {}
+[0.399754] (-) TimerEvent: {}
+[0.500737] (-) TimerEvent: {}
+[0.601159] (-) TimerEvent: {}
+[0.701481] (-) TimerEvent: {}
+[0.801709] (-) TimerEvent: {}
+[0.901942] (-) TimerEvent: {}
+[1.002205] (-) TimerEvent: {}
+[1.102454] (-) TimerEvent: {}
+[1.203466] (-) TimerEvent: {}
+[1.303692] (-) TimerEvent: {}
+[1.403958] (-) TimerEvent: {}
+[1.504186] (-) TimerEvent: {}
+[1.604448] (-) TimerEvent: {}
+[1.704655] (-) TimerEvent: {}
+[1.804973] (-) TimerEvent: {}
+[1.906094] (-) TimerEvent: {}
+[2.006359] (-) TimerEvent: {}
+[2.106661] (-) TimerEvent: {}
+[2.206941] (-) TimerEvent: {}
+[2.307744] (-) TimerEvent: {}
+[2.408300] (-) TimerEvent: {}
+[2.508625] (-) TimerEvent: {}
+[2.609082] (-) TimerEvent: {}
+[2.709423] (-) TimerEvent: {}
+[2.812192] (-) TimerEvent: {}
+[2.912554] (-) TimerEvent: {}
+[3.012910] (-) TimerEvent: {}
+[3.113933] (-) TimerEvent: {}
+[3.214143] (-) TimerEvent: {}
+[3.314353] (-) TimerEvent: {}
+[3.414607] (-) TimerEvent: {}
+[3.514814] (-) TimerEvent: {}
+[3.615222] (-) TimerEvent: {}
+[3.716053] (-) TimerEvent: {}
+[3.816436] (-) TimerEvent: {}
+[3.916780] (-) TimerEvent: {}
+[4.017097] (-) TimerEvent: {}
+[4.117629] (-) TimerEvent: {}
+[4.217819] (-) TimerEvent: {}
+[4.318165] (-) TimerEvent: {}
+[4.418425] (-) TimerEvent: {}
+[4.518768] (-) TimerEvent: {}
+[4.619272] (-) TimerEvent: {}
+[4.719531] (-) TimerEvent: {}
+[4.820095] (-) TimerEvent: {}
+[4.920697] (-) TimerEvent: {}
+[5.021118] (-) TimerEvent: {}
+[5.044935] (simple_pkg_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable HelloWorldPublisherCpp\x1b[0m\n'}
+[5.121287] (-) TimerEvent: {}
+[5.225906] (-) TimerEvent: {}
+[5.318678] (simple_pkg_cpp) StdoutLine: {'line': b'[100%] Built target HelloWorldPublisherCpp\n'}
+[5.326798] (-) TimerEvent: {}
+[5.328860] (simple_pkg_cpp) CommandEnded: {'returncode': 0}
+[5.355841] (simple_pkg_cpp) JobProgress: {'identifier': 'simple_pkg_cpp', 'progress': 'install'}
+[5.366416] (simple_pkg_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nipun/ros2RB_ws/build/simple_pkg_cpp'], 'cwd': '/home/nipun/ros2RB_ws/build/simple_pkg_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nipun'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nipun/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nipun'), ('OLDPWD', '/home/nipun/ros2RB_ws/simple_pkg_cpp'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1449'), ('SYSTEMD_EXEC_PID', '1806'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2919'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nipun/ros2RB_ws/install:/home/nipun/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nipun'), ('JOURNAL_STREAM', '8:23004'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nipun'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nipun-virtual-machine:@/tmp/.ICE-unix/1580,unix/nipun-virtual-machine:/tmp/.ICE-unix/1580'), ('INVOCATION_ID', '95166e5a2ecc4846a68afe63ed9b35b0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.C6HOR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nipun/ros2RB_ws/install/simple_pkg_cpp:/home/nipun/ros2RB_ws/install/simple_pkg:/home/nipun/ros2RB_ws/install/learningPubSubPkg:/home/nipun/ros2_ws/install/my_robot_bringup:/home/nipun/ros2_ws/install/my_py_pkg:/home/nipun/ros2_ws/install/my_cpp_pkg:/home/nipun/ros2_ws/install/my_robot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:5c6d5006-05bc-4e29-970a-0301861bd075'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nipun/ros2RB_ws/build/simple_pkg_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nipun/ros2RB_ws/install/simple_pkg/lib/python3.10/site-packages:/home/nipun/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/nipun/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nipun/ros2RB_ws/install/simple_pkg_cpp:/home/nipun/ros2RB_ws/install/learningPubSubPkg:/home/nipun/ros2_ws/install/my_robot_bringup:/home/nipun/ros2_ws/install/my_cpp_pkg:/home/nipun/ros2_ws/install/my_robot_interfaces:/home/nipun/ros2RB_ws/install/simple_pkg:/home/nipun/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[5.372978] (simple_pkg_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.374152] (simple_pkg_cpp) StdoutLine: {'line': b'-- Installing: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/lib/simple_pkg_cpp/HelloWorldPublisherCpp\n'}
+[5.375116] (simple_pkg_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/nipun/ros2RB_ws/install/simple_pkg_cpp/lib/simple_pkg_cpp/HelloWorldPublisherCpp" to ""\n'}
+[5.375202] (simple_pkg_cpp) StdoutLine: {'line': b'-- Installing: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/ament_index/resource_index/package_run_dependencies/simple_pkg_cpp\n'}
+[5.375274] (simple_pkg_cpp) StdoutLine: {'line': b'-- Installing: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/ament_index/resource_index/parent_prefix_path/simple_pkg_cpp\n'}
+[5.375445] (simple_pkg_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/environment/ament_prefix_path.sh\n'}
+[5.375611] (simple_pkg_cpp) StdoutLine: {'line': b'-- Installing: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/environment/ament_prefix_path.dsv\n'}
+[5.375770] (simple_pkg_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/environment/path.sh\n'}
+[5.375891] (simple_pkg_cpp) StdoutLine: {'line': b'-- Installing: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/environment/path.dsv\n'}
+[5.376064] (simple_pkg_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/local_setup.bash\n'}
+[5.376330] (simple_pkg_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/local_setup.sh\n'}
+[5.376491] (simple_pkg_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/local_setup.zsh\n'}
+[5.376629] (simple_pkg_cpp) StdoutLine: {'line': b'-- Installing: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/local_setup.dsv\n'}
+[5.376777] (simple_pkg_cpp) StdoutLine: {'line': b'-- Installing: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/package.dsv\n'}
+[5.376985] (simple_pkg_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/ament_index/resource_index/packages/simple_pkg_cpp\n'}
+[5.377341] (simple_pkg_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/cmake/simple_pkg_cppConfig.cmake\n'}
+[5.377443] (simple_pkg_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/cmake/simple_pkg_cppConfig-version.cmake\n'}
+[5.377636] (simple_pkg_cpp) StdoutLine: {'line': b'-- Installing: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/package.xml\n'}
+[5.381982] (simple_pkg_cpp) CommandEnded: {'returncode': 0}
+[5.425387] (simple_pkg_cpp) JobEnded: {'identifier': 'simple_pkg_cpp', 'rc': 0}
+[5.425793] (-) EventReactorShutdown: {}

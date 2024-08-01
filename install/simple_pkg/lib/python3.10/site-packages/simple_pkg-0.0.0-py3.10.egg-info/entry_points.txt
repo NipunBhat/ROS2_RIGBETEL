@@ -1,0 +1,4 @@
+[console_scripts]
+HelloWorldPublisher = simple_pkg.pub:main
+HelloWorldSubscriber = simple_pkg.sub:main
+

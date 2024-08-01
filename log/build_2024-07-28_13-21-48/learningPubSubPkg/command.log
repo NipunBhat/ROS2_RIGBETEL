@@ -1,0 +1,4 @@
+Invoking command in '/home/nipun/ros2RB_ws/build/learningPubSubPkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nipun/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nipun/ros2RB_ws/build/learningPubSubPkg -- -j3 -l3
+Invoked command in '/home/nipun/ros2RB_ws/build/learningPubSubPkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nipun/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nipun/ros2RB_ws/build/learningPubSubPkg -- -j3 -l3
+Invoking command in '/home/nipun/ros2RB_ws/build/learningPubSubPkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nipun/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/nipun/ros2RB_ws/build/learningPubSubPkg
+Invoked command in '/home/nipun/ros2RB_ws/build/learningPubSubPkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nipun/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/nipun/ros2RB_ws/build/learningPubSubPkg

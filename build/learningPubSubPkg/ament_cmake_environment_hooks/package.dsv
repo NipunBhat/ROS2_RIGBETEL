@@ -1,0 +1,4 @@
+source;share/learningPubSubPkg/local_setup.bash
+source;share/learningPubSubPkg/local_setup.dsv
+source;share/learningPubSubPkg/local_setup.sh
+source;share/learningPubSubPkg/local_setup.zsh

@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+assignment1/__init__.py
+assignment1/analysisNode.py
+assignment1/outcomeNode.py
+assignment1/temperatureNode.py
+assignment1.egg-info/PKG-INFO
+assignment1.egg-info/SOURCES.txt
+assignment1.egg-info/dependency_links.txt
+assignment1.egg-info/entry_points.txt
+assignment1.egg-info/requires.txt
+assignment1.egg-info/top_level.txt
+assignment1.egg-info/zip-safe
+resource/assignment1

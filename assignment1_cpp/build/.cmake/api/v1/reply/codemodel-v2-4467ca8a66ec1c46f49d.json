@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-e8099a0ca2ebafe1ee1c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "assignment1_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "assignment1_cpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-assignment1_cpp_uninstall-Debug-d1395db1fcdbfa25695b.json",
+					"name" : "assignment1_cpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "status_sub::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-status_sub-Debug-cb154baeeb2575e92348.json",
+					"name" : "status_sub",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "temp_analysis::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-temp_analysis-Debug-f5c652434d03bb8fd31d.json",
+					"name" : "temp_analysis",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "temp_pub::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-temp_pub-Debug-ee8a56163f485300d7a7.json",
+					"name" : "temp_pub",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-84f9d3e26bb1215f4845.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nipun/ros2RB_ws/assignment1_cpp/build",
+		"source" : "/home/nipun/ros2RB_ws/assignment1_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

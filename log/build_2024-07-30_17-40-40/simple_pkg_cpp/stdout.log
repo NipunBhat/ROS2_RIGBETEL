@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target HelloWorldSubscriberCpp[0m
+[100%] Built target HelloWorldPublisherCpp
+[100%] Built target HelloWorldSubscriberCpp
+-- Install configuration: ""
+-- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/lib/simple_pkg_cpp/HelloWorldPublisherCpp
+-- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/lib/simple_pkg_cpp/HelloWorldSubscriberCpp
+-- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/ament_index/resource_index/package_run_dependencies/simple_pkg_cpp
+-- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/ament_index/resource_index/parent_prefix_path/simple_pkg_cpp
+-- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/environment/path.sh
+-- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/environment/path.dsv
+-- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/local_setup.bash
+-- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/local_setup.sh
+-- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/local_setup.zsh
+-- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/local_setup.dsv
+-- Installing: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/package.dsv
+-- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/ament_index/resource_index/packages/simple_pkg_cpp
+-- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/cmake/simple_pkg_cppConfig.cmake
+-- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/cmake/simple_pkg_cppConfig-version.cmake
+-- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/package.xml

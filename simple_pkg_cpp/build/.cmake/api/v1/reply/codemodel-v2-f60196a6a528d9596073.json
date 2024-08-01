@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-51aa2107621406f3d09f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "simple_pkg_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "HelloWorldPublisherCpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HelloWorldPublisherCpp-Debug-c949ea4b4cb86de6b2cf.json",
+					"name" : "HelloWorldPublisherCpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "HelloWorldSubscriberCpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HelloWorldSubscriberCpp-Debug-ae3f9c5f44bf7227f793.json",
+					"name" : "HelloWorldSubscriberCpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_pkg_cpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_pkg_cpp_uninstall-Debug-05e1abcdd2438c446ff8.json",
+					"name" : "simple_pkg_cpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-e2d90534e0b09e44d803.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nipun/ros2RB_ws/simple_pkg_cpp/build",
+		"source" : "/home/nipun/ros2RB_ws/simple_pkg_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

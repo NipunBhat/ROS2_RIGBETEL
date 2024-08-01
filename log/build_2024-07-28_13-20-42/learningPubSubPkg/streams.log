@@ -1,0 +1,21 @@
+[0.008s] Invoking command in '/home/nipun/ros2RB_ws/build/learningPubSubPkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nipun/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nipun/ros2RB_ws/build/learningPubSubPkg -- -j3 -l3
+[0.067s] Invoked command in '/home/nipun/ros2RB_ws/build/learningPubSubPkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nipun/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nipun/ros2RB_ws/build/learningPubSubPkg -- -j3 -l3
+[0.111s] Invoking command in '/home/nipun/ros2RB_ws/build/learningPubSubPkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nipun/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/nipun/ros2RB_ws/build/learningPubSubPkg
+[0.115s] -- Install configuration: ""
+[0.115s] -- Up-to-date: /home/nipun/ros2RB_ws/install/learningPubSubPkg/lib/{$PROJECT_NAME}/pub.py
+[0.115s] -- Up-to-date: /home/nipun/ros2RB_ws/install/learningPubSubPkg/share/ament_index/resource_index/package_run_dependencies/learningPubSubPkg
+[0.115s] -- Up-to-date: /home/nipun/ros2RB_ws/install/learningPubSubPkg/share/ament_index/resource_index/parent_prefix_path/learningPubSubPkg
+[0.115s] -- Up-to-date: /home/nipun/ros2RB_ws/install/learningPubSubPkg/share/learningPubSubPkg/environment/ament_prefix_path.sh
+[0.115s] -- Up-to-date: /home/nipun/ros2RB_ws/install/learningPubSubPkg/share/learningPubSubPkg/environment/ament_prefix_path.dsv
+[0.115s] -- Up-to-date: /home/nipun/ros2RB_ws/install/learningPubSubPkg/share/learningPubSubPkg/environment/path.sh
+[0.116s] -- Up-to-date: /home/nipun/ros2RB_ws/install/learningPubSubPkg/share/learningPubSubPkg/environment/path.dsv
+[0.121s] -- Up-to-date: /home/nipun/ros2RB_ws/install/learningPubSubPkg/share/learningPubSubPkg/local_setup.bash
+[0.122s] -- Up-to-date: /home/nipun/ros2RB_ws/install/learningPubSubPkg/share/learningPubSubPkg/local_setup.sh
+[0.122s] -- Up-to-date: /home/nipun/ros2RB_ws/install/learningPubSubPkg/share/learningPubSubPkg/local_setup.zsh
+[0.122s] -- Up-to-date: /home/nipun/ros2RB_ws/install/learningPubSubPkg/share/learningPubSubPkg/local_setup.dsv
+[0.122s] -- Installing: /home/nipun/ros2RB_ws/install/learningPubSubPkg/share/learningPubSubPkg/package.dsv
+[0.122s] -- Up-to-date: /home/nipun/ros2RB_ws/install/learningPubSubPkg/share/ament_index/resource_index/packages/learningPubSubPkg
+[0.122s] -- Up-to-date: /home/nipun/ros2RB_ws/install/learningPubSubPkg/share/learningPubSubPkg/cmake/learningPubSubPkgConfig.cmake
+[0.122s] -- Up-to-date: /home/nipun/ros2RB_ws/install/learningPubSubPkg/share/learningPubSubPkg/cmake/learningPubSubPkgConfig-version.cmake
+[0.122s] -- Up-to-date: /home/nipun/ros2RB_ws/install/learningPubSubPkg/share/learningPubSubPkg/package.xml
+[0.128s] Invoked command in '/home/nipun/ros2RB_ws/build/learningPubSubPkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nipun/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/nipun/ros2RB_ws/build/learningPubSubPkg

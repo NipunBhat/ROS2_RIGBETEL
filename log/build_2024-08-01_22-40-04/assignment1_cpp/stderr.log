@@ -1,0 +1,11 @@
+[01m[K/home/nipun/ros2RB_ws/assignment1_cpp/src/temp_analysis.cpp:[m[K In member function ‘[01m[Kvoid CTempPub::_publishStatus(const Bool&)[m[K’:
+[01m[K/home/nipun/ros2RB_ws/assignment1_cpp/src/temp_analysis.cpp:43:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstatus[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   43 |     void _publishStatus([01;35m[Kconst std_msgs::msg::Bool &status[m[K)
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/nipun/ros2RB_ws/assignment1_cpp/src/temp_analysis.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nipun/ros2RB_ws/assignment1_cpp/src/temp_analysis.cpp:53:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   53 | int main([01;35m[Kint argc[m[K, char * argv[])
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/nipun/ros2RB_ws/assignment1_cpp/src/temp_analysis.cpp:53:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   53 | int main(int argc, [01;35m[Kchar * argv[][m[K)
+      |                    [01;35m[K~~~~~~~^~~~~~[m[K

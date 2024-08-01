@@ -1,0 +1,21 @@
+[1.705s] Invoking command in '/home/nipun/ros2RB_ws/build/assignment1': PYTHONPATH=/home/nipun/ros2RB_ws/build/assignment1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nipun/ros2RB_ws/install/assignment1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/nipun/ros2RB_ws/build/assignment1/build --no-deps symlink_data --force
+[2.393s] running develop
+[2.767s] running egg_info
+[2.767s] writing assignment1.egg-info/PKG-INFO
+[2.768s] writing dependency_links to assignment1.egg-info/dependency_links.txt
+[2.769s] writing entry points to assignment1.egg-info/entry_points.txt
+[2.769s] writing requirements to assignment1.egg-info/requires.txt
+[2.770s] writing top-level names to assignment1.egg-info/top_level.txt
+[2.774s] reading manifest file 'assignment1.egg-info/SOURCES.txt'
+[2.789s] writing manifest file 'assignment1.egg-info/SOURCES.txt'
+[2.794s] running build_ext
+[2.796s] Creating /home/nipun/ros2RB_ws/install/assignment1/lib/python3.10/site-packages/assignment1.egg-link (link to .)
+[2.798s] Installing outcome_sub script to /home/nipun/ros2RB_ws/install/assignment1/lib/assignment1
+[2.799s] Installing temp_analysis script to /home/nipun/ros2RB_ws/install/assignment1/lib/assignment1
+[2.800s] Installing temp_pub script to /home/nipun/ros2RB_ws/install/assignment1/lib/assignment1
+[2.801s] 
+[2.801s] Installed /home/nipun/ros2RB_ws/build/assignment1
+[2.802s] running symlink_data
+[2.802s] symbolically linking /home/nipun/ros2RB_ws/build/assignment1/resource/assignment1 -> /home/nipun/ros2RB_ws/install/assignment1/share/ament_index/resource_index/packages
+[2.803s] symbolically linking /home/nipun/ros2RB_ws/build/assignment1/package.xml -> /home/nipun/ros2RB_ws/install/assignment1/share/assignment1
+[2.861s] Invoked command in '/home/nipun/ros2RB_ws/build/assignment1' returned '0': PYTHONPATH=/home/nipun/ros2RB_ws/build/assignment1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nipun/ros2RB_ws/install/assignment1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/nipun/ros2RB_ws/build/assignment1/build --no-deps symlink_data --force

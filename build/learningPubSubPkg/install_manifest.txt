@@ -1,0 +1,16 @@
+/home/nipun/ros2RB_ws/install/learningPubSubPkg/lib/{$PROJECT_NAME}/pub.py
+/home/nipun/ros2RB_ws/install/learningPubSubPkg/share/ament_index/resource_index/package_run_dependencies/learningPubSubPkg
+/home/nipun/ros2RB_ws/install/learningPubSubPkg/share/ament_index/resource_index/parent_prefix_path/learningPubSubPkg
+/home/nipun/ros2RB_ws/install/learningPubSubPkg/share/learningPubSubPkg/environment/ament_prefix_path.sh
+/home/nipun/ros2RB_ws/install/learningPubSubPkg/share/learningPubSubPkg/environment/ament_prefix_path.dsv
+/home/nipun/ros2RB_ws/install/learningPubSubPkg/share/learningPubSubPkg/environment/path.sh
+/home/nipun/ros2RB_ws/install/learningPubSubPkg/share/learningPubSubPkg/environment/path.dsv
+/home/nipun/ros2RB_ws/install/learningPubSubPkg/share/learningPubSubPkg/local_setup.bash
+/home/nipun/ros2RB_ws/install/learningPubSubPkg/share/learningPubSubPkg/local_setup.sh
+/home/nipun/ros2RB_ws/install/learningPubSubPkg/share/learningPubSubPkg/local_setup.zsh
+/home/nipun/ros2RB_ws/install/learningPubSubPkg/share/learningPubSubPkg/local_setup.dsv
+/home/nipun/ros2RB_ws/install/learningPubSubPkg/share/learningPubSubPkg/package.dsv
+/home/nipun/ros2RB_ws/install/learningPubSubPkg/share/ament_index/resource_index/packages/learningPubSubPkg
+/home/nipun/ros2RB_ws/install/learningPubSubPkg/share/learningPubSubPkg/cmake/learningPubSubPkgConfig.cmake
+/home/nipun/ros2RB_ws/install/learningPubSubPkg/share/learningPubSubPkg/cmake/learningPubSubPkgConfig-version.cmake
+/home/nipun/ros2RB_ws/install/learningPubSubPkg/share/learningPubSubPkg/package.xml

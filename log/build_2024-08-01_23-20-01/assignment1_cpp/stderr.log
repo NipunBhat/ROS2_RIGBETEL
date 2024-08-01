@@ -1,0 +1,13 @@
+[01m[K/home/nipun/ros2RB_ws/assignment1_cpp/src/temp_analysis.cpp:[m[K In member function ‘[01m[Kvoid CTempPub::_analyseTemp(FLOAT32)[m[K’:
+[01m[K/home/nipun/ros2RB_ws/assignment1_cpp/src/temp_analysis.cpp:45:24:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd_msgs::msg::Float32_<std::allocator<void> >[m[K’ to ‘[01m[Kconst BOOL&[m[K’ {aka ‘[01m[Kconst std_msgs::msg::Bool_<std::allocator<void> >&[m[K’}
+   45 |         _publishStatus([01;31m[Kstatus[m[K);
+      |                        [01;31m[K^~~~~~[m[K
+      |                        [01;31m[K|[m[K
+      |                        [01;31m[Kstd_msgs::msg::Float32_<std::allocator<void> >[m[K
+[01m[K/home/nipun/ros2RB_ws/assignment1_cpp/src/temp_analysis.cpp:48:37:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid CTempPub::_publishStatus(const BOOL&)[m[K’
+   48 |     void _publishStatus([01;36m[Kconst BOOL &status[m[K)
+      |                         [01;36m[K~~~~~~~~~~~~^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/temp_analysis.dir/build.make:76: CMakeFiles/temp_analysis.dir/src/temp_analysis.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/temp_analysis.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2
