@@ -1,0 +1,40 @@
+[0.856s] Invoking command in '/home/nipun/ros2RB_ws/simple_pkg': PYTHONPATH=/home/nipun/ros2RB_ws/simple_pkg/build/simple_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nipun/ros2RB_ws/simple_pkg/install/simple_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/simple_pkg build --build-base /home/nipun/ros2RB_ws/simple_pkg/build/simple_pkg/build install --record /home/nipun/ros2RB_ws/simple_pkg/build/simple_pkg/install.log --single-version-externally-managed install_data
+[1.208s] running egg_info
+[1.209s] creating build/simple_pkg/simple_pkg.egg-info
+[1.209s] writing build/simple_pkg/simple_pkg.egg-info/PKG-INFO
+[1.209s] writing dependency_links to build/simple_pkg/simple_pkg.egg-info/dependency_links.txt
+[1.209s] writing entry points to build/simple_pkg/simple_pkg.egg-info/entry_points.txt
+[1.209s] writing requirements to build/simple_pkg/simple_pkg.egg-info/requires.txt
+[1.210s] writing top-level names to build/simple_pkg/simple_pkg.egg-info/top_level.txt
+[1.210s] writing manifest file 'build/simple_pkg/simple_pkg.egg-info/SOURCES.txt'
+[1.212s] reading manifest file 'build/simple_pkg/simple_pkg.egg-info/SOURCES.txt'
+[1.213s] writing manifest file 'build/simple_pkg/simple_pkg.egg-info/SOURCES.txt'
+[1.214s] running build
+[1.214s] running build_py
+[1.214s] creating /home/nipun/ros2RB_ws/simple_pkg/build/simple_pkg/build
+[1.214s] creating /home/nipun/ros2RB_ws/simple_pkg/build/simple_pkg/build/lib
+[1.214s] creating /home/nipun/ros2RB_ws/simple_pkg/build/simple_pkg/build/lib/simple_pkg
+[1.214s] copying simple_pkg/__init__.py -> /home/nipun/ros2RB_ws/simple_pkg/build/simple_pkg/build/lib/simple_pkg
+[1.215s] copying simple_pkg/sub.py -> /home/nipun/ros2RB_ws/simple_pkg/build/simple_pkg/build/lib/simple_pkg
+[1.215s] copying simple_pkg/pub.py -> /home/nipun/ros2RB_ws/simple_pkg/build/simple_pkg/build/lib/simple_pkg
+[1.215s] running install
+[1.215s] running install_lib
+[1.216s] creating /home/nipun/ros2RB_ws/simple_pkg/install/simple_pkg/lib/python3.10/site-packages/simple_pkg
+[1.216s] copying /home/nipun/ros2RB_ws/simple_pkg/build/simple_pkg/build/lib/simple_pkg/__init__.py -> /home/nipun/ros2RB_ws/simple_pkg/install/simple_pkg/lib/python3.10/site-packages/simple_pkg
+[1.216s] copying /home/nipun/ros2RB_ws/simple_pkg/build/simple_pkg/build/lib/simple_pkg/sub.py -> /home/nipun/ros2RB_ws/simple_pkg/install/simple_pkg/lib/python3.10/site-packages/simple_pkg
+[1.216s] copying /home/nipun/ros2RB_ws/simple_pkg/build/simple_pkg/build/lib/simple_pkg/pub.py -> /home/nipun/ros2RB_ws/simple_pkg/install/simple_pkg/lib/python3.10/site-packages/simple_pkg
+[1.217s] byte-compiling /home/nipun/ros2RB_ws/simple_pkg/install/simple_pkg/lib/python3.10/site-packages/simple_pkg/__init__.py to __init__.cpython-310.pyc
+[1.217s] byte-compiling /home/nipun/ros2RB_ws/simple_pkg/install/simple_pkg/lib/python3.10/site-packages/simple_pkg/sub.py to sub.cpython-310.pyc
+[1.218s] byte-compiling /home/nipun/ros2RB_ws/simple_pkg/install/simple_pkg/lib/python3.10/site-packages/simple_pkg/pub.py to pub.cpython-310.pyc
+[1.218s] running install_data
+[1.219s] creating /home/nipun/ros2RB_ws/simple_pkg/install/simple_pkg/share/ament_index
+[1.219s] creating /home/nipun/ros2RB_ws/simple_pkg/install/simple_pkg/share/ament_index/resource_index
+[1.219s] creating /home/nipun/ros2RB_ws/simple_pkg/install/simple_pkg/share/ament_index/resource_index/packages
+[1.219s] copying resource/simple_pkg -> /home/nipun/ros2RB_ws/simple_pkg/install/simple_pkg/share/ament_index/resource_index/packages
+[1.219s] copying package.xml -> /home/nipun/ros2RB_ws/simple_pkg/install/simple_pkg/share/simple_pkg
+[1.219s] running install_egg_info
+[1.221s] Copying build/simple_pkg/simple_pkg.egg-info to /home/nipun/ros2RB_ws/simple_pkg/install/simple_pkg/lib/python3.10/site-packages/simple_pkg-0.0.0-py3.10.egg-info
+[1.223s] running install_scripts
+[1.248s] Installing HelloWorldPublisher script to /home/nipun/ros2RB_ws/simple_pkg/install/simple_pkg/lib/simple_pkg
+[1.248s] writing list of installed files to '/home/nipun/ros2RB_ws/simple_pkg/build/simple_pkg/install.log'
+[1.275s] Invoked command in '/home/nipun/ros2RB_ws/simple_pkg' returned '0': PYTHONPATH=/home/nipun/ros2RB_ws/simple_pkg/build/simple_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nipun/ros2RB_ws/simple_pkg/install/simple_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/simple_pkg build --build-base /home/nipun/ros2RB_ws/simple_pkg/build/simple_pkg/build install --record /home/nipun/ros2RB_ws/simple_pkg/build/simple_pkg/install.log --single-version-externally-managed install_data

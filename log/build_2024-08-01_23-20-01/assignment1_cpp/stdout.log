@@ -1,0 +1,7 @@
+[35m[1mConsolidate compiler generated dependencies of target status_sub[0m
+[35m[1mConsolidate compiler generated dependencies of target temp_analysis[0m
+[ 33%] Built target temp_pub
+[ 50%] [32mBuilding CXX object CMakeFiles/temp_analysis.dir/src/temp_analysis.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/status_sub.dir/src/status_sub.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable status_sub[0m
+[ 83%] Built target status_sub

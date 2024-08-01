@@ -1,0 +1,67 @@
+[0.000000] (-) TimerEvent: {}
+[0.000206] (-) JobUnselected: {'identifier': 'simple_pkg'}
+[0.000351] (simple_pkg_cpp) JobQueued: {'identifier': 'simple_pkg_cpp', 'dependencies': OrderedDict()}
+[0.000386] (simple_pkg_cpp) JobStarted: {'identifier': 'simple_pkg_cpp'}
+[0.012245] (simple_pkg_cpp) JobProgress: {'identifier': 'simple_pkg_cpp', 'progress': 'cmake'}
+[0.012344] (simple_pkg_cpp) JobProgress: {'identifier': 'simple_pkg_cpp', 'progress': 'build'}
+[0.012388] (simple_pkg_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nipun/ros2RB_ws/build/simple_pkg_cpp', '--', '-j3', '-l3'], 'cwd': '/home/nipun/ros2RB_ws/build/simple_pkg_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nipun'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nipun/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nipun'), ('OLDPWD', '/home/nipun/ros2RB_ws/simple_pkg_cpp'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1449'), ('SYSTEMD_EXEC_PID', '1806'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2919'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nipun/ros2RB_ws/install:/home/nipun/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nipun'), ('JOURNAL_STREAM', '8:23004'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nipun'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nipun-virtual-machine:@/tmp/.ICE-unix/1580,unix/nipun-virtual-machine:/tmp/.ICE-unix/1580'), ('INVOCATION_ID', '95166e5a2ecc4846a68afe63ed9b35b0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.C6HOR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nipun/ros2RB_ws/install/simple_pkg_cpp:/home/nipun/ros2RB_ws/install/simple_pkg:/home/nipun/ros2RB_ws/install/learningPubSubPkg:/home/nipun/ros2_ws/install/my_robot_bringup:/home/nipun/ros2_ws/install/my_py_pkg:/home/nipun/ros2_ws/install/my_cpp_pkg:/home/nipun/ros2_ws/install/my_robot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:5c6d5006-05bc-4e29-970a-0301861bd075'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nipun/ros2RB_ws/build/simple_pkg_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nipun/ros2RB_ws/install/simple_pkg/lib/python3.10/site-packages:/home/nipun/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/nipun/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nipun/ros2RB_ws/install/simple_pkg_cpp:/home/nipun/ros2RB_ws/install/learningPubSubPkg:/home/nipun/ros2_ws/install/my_robot_bringup:/home/nipun/ros2_ws/install/my_cpp_pkg:/home/nipun/ros2_ws/install/my_robot_interfaces:/home/nipun/ros2RB_ws/install/simple_pkg:/home/nipun/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.076233] (simple_pkg_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/HelloWorldPublisherCpp.dir/src/publisher.cpp.o\x1b[0m\n'}
+[0.098910] (-) TimerEvent: {}
+[0.199450] (-) TimerEvent: {}
+[0.299965] (-) TimerEvent: {}
+[0.400443] (-) TimerEvent: {}
+[0.500933] (-) TimerEvent: {}
+[0.601636] (-) TimerEvent: {}
+[0.702237] (-) TimerEvent: {}
+[0.802548] (-) TimerEvent: {}
+[0.902857] (-) TimerEvent: {}
+[1.003464] (-) TimerEvent: {}
+[1.103810] (-) TimerEvent: {}
+[1.204098] (-) TimerEvent: {}
+[1.304364] (-) TimerEvent: {}
+[1.404821] (-) TimerEvent: {}
+[1.505332] (-) TimerEvent: {}
+[1.605567] (-) TimerEvent: {}
+[1.706085] (-) TimerEvent: {}
+[1.807044] (-) TimerEvent: {}
+[1.907799] (-) TimerEvent: {}
+[2.008177] (-) TimerEvent: {}
+[2.109556] (-) TimerEvent: {}
+[2.210061] (-) TimerEvent: {}
+[2.310642] (-) TimerEvent: {}
+[2.411044] (-) TimerEvent: {}
+[2.511296] (-) TimerEvent: {}
+[2.611708] (-) TimerEvent: {}
+[2.712135] (-) TimerEvent: {}
+[2.812653] (-) TimerEvent: {}
+[2.892221] (simple_pkg_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nipun/ros2RB_ws/simple_pkg_cpp/src/publisher.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KCPublisherNode::CPublisherNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.892627] (simple_pkg_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nipun/ros2RB_ws/simple_pkg_cpp/src/publisher.cpp:10:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KCPublisherNode::create_wall_timer(int, std::_Bind_helper<false, void (CPublisherNode::*)(), CPublisherNode*>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.892691] (simple_pkg_cpp) StderrLine: {'line': b'   10 |         this->m_pTimer = \x1b[01;31m\x1b[Kthis->create_wall_timer(500, std::bind(&CPublisherNode::timerCallback, this))\x1b[m\x1b[K;\n'}
+[2.892746] (simple_pkg_cpp) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.905979] (simple_pkg_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.906203] (simple_pkg_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.906310] (simple_pkg_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.906392] (simple_pkg_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nipun/ros2RB_ws/simple_pkg_cpp/src/publisher.cpp:1\x1b[m\x1b[K:\n'}
+[2.906445] (simple_pkg_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:238:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::Node::create_wall_timer(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.906503] (simple_pkg_cpp) StderrLine: {'line': b'  238 |   \x1b[01;36m\x1b[Kcreate_wall_timer\x1b[m\x1b[K(\n'}
+[2.906555] (simple_pkg_cpp) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.906606] (simple_pkg_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:238:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.906658] (simple_pkg_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nipun/ros2RB_ws/simple_pkg_cpp/src/publisher.cpp:10:49:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::duration<_Rep1, _Period1>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.906712] (simple_pkg_cpp) StderrLine: {'line': b'   10 |         this->m_pTimer = \x1b[01;36m\x1b[Kthis->create_wall_timer(500, std::bind(&CPublisherNode::timerCallback, this))\x1b[m\x1b[K;\n'}
+[2.906765] (simple_pkg_cpp) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.912805] (-) TimerEvent: {}
+[3.013417] (-) TimerEvent: {}
+[3.113763] (-) TimerEvent: {}
+[3.214282] (-) TimerEvent: {}
+[3.314890] (-) TimerEvent: {}
+[3.415289] (-) TimerEvent: {}
+[3.515724] (-) TimerEvent: {}
+[3.617093] (-) TimerEvent: {}
+[3.717534] (-) TimerEvent: {}
+[3.800894] (simple_pkg_cpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/HelloWorldPublisherCpp.dir/build.make:76: CMakeFiles/HelloWorldPublisherCpp.dir/src/publisher.cpp.o] Error 1\n'}
+[3.802864] (simple_pkg_cpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/HelloWorldPublisherCpp.dir/all] Error 2\n'}
+[3.804861] (simple_pkg_cpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.805829] (simple_pkg_cpp) CommandEnded: {'returncode': 2}
+[3.817630] (-) TimerEvent: {}
+[3.842461] (simple_pkg_cpp) JobEnded: {'identifier': 'simple_pkg_cpp', 'rc': 2}
+[3.853470] (-) EventReactorShutdown: {}

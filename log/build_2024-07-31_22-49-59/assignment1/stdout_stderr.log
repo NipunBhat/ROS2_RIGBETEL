@@ -1,0 +1,29 @@
+running egg_info
+writing ../build/assignment1/assignment1.egg-info/PKG-INFO
+writing dependency_links to ../build/assignment1/assignment1.egg-info/dependency_links.txt
+writing entry points to ../build/assignment1/assignment1.egg-info/entry_points.txt
+writing requirements to ../build/assignment1/assignment1.egg-info/requires.txt
+writing top-level names to ../build/assignment1/assignment1.egg-info/top_level.txt
+reading manifest file '../build/assignment1/assignment1.egg-info/SOURCES.txt'
+writing manifest file '../build/assignment1/assignment1.egg-info/SOURCES.txt'
+running build
+running build_py
+copying assignment1/temperatureNode.py -> /home/nipun/ros2RB_ws/build/assignment1/build/lib/assignment1
+copying assignment1/analysisNode.py -> /home/nipun/ros2RB_ws/build/assignment1/build/lib/assignment1
+copying assignment1/outcomeNode.py -> /home/nipun/ros2RB_ws/build/assignment1/build/lib/assignment1
+running install
+running install_lib
+copying /home/nipun/ros2RB_ws/build/assignment1/build/lib/assignment1/temperatureNode.py -> /home/nipun/ros2RB_ws/install/assignment1/lib/python3.10/site-packages/assignment1
+copying /home/nipun/ros2RB_ws/build/assignment1/build/lib/assignment1/analysisNode.py -> /home/nipun/ros2RB_ws/install/assignment1/lib/python3.10/site-packages/assignment1
+copying /home/nipun/ros2RB_ws/build/assignment1/build/lib/assignment1/outcomeNode.py -> /home/nipun/ros2RB_ws/install/assignment1/lib/python3.10/site-packages/assignment1
+byte-compiling /home/nipun/ros2RB_ws/install/assignment1/lib/python3.10/site-packages/assignment1/temperatureNode.py to temperatureNode.cpython-310.pyc
+byte-compiling /home/nipun/ros2RB_ws/install/assignment1/lib/python3.10/site-packages/assignment1/analysisNode.py to analysisNode.cpython-310.pyc
+byte-compiling /home/nipun/ros2RB_ws/install/assignment1/lib/python3.10/site-packages/assignment1/outcomeNode.py to outcomeNode.cpython-310.pyc
+running install_data
+copying package.xml -> /home/nipun/ros2RB_ws/install/assignment1/share/assignment1
+running install_egg_info
+removing '/home/nipun/ros2RB_ws/install/assignment1/lib/python3.10/site-packages/assignment1-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/assignment1/assignment1.egg-info to /home/nipun/ros2RB_ws/install/assignment1/lib/python3.10/site-packages/assignment1-0.0.0-py3.10.egg-info
+running install_scripts
+Installing TemperaturePublisher script to /home/nipun/ros2RB_ws/install/assignment1/lib/assignment1
+writing list of installed files to '/home/nipun/ros2RB_ws/build/assignment1/install.log'

@@ -1,0 +1,7 @@
+[01m[K/home/nipun/ros2RB_ws/simple_pkg_cpp/src/publisher.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/sring.hpp: No such file or directory
+    2 | #include [01;31m[K"std_msgs/msg/sring.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/HelloWorldPublisherCpp.dir/build.make:76: CMakeFiles/HelloWorldPublisherCpp.dir/src/publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/HelloWorldPublisherCpp.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
