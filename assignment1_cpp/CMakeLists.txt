@@ -25,22 +25,22 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
-add_executable(temp_pub src/temp_pub.cpp)
-add_executable(temp_analysis src/temp_analysis.cpp)
-add_executable(status_sub src/status_sub.cpp)
+add_executable(NODE1 src/temp_pub.cpp)
+add_executable(NODE2 src/temp_analysis.cpp)
+add_executable(NODE3 src/status_sub.cpp)
 
-ament_target_dependencies(temp_pub rclcpp std_msgs)
-ament_target_dependencies(temp_analysis rclcpp std_msgs)
-ament_target_dependencies(status_sub rclcpp std_msgs)
+ament_target_dependencies(NODE1 rclcpp std_msgs)
+ament_target_dependencies(NODE2 rclcpp std_msgs)
+ament_target_dependencies(NODE3 rclcpp std_msgs)
 
 install(DIRECTORY
 launch
 DESTINATION share/${PROJECT_NAME})
 
 install(TARGETS
-  temp_pub
-  temp_analysis
-  status_sub
+  NODE1
+  NODE2
+  NODE3
   DESTINATION lib/${PROJECT_NAME})
 
 ament_package()

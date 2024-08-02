@@ -1,7 +1,7 @@
 /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/launch/assignment1_cpp_launch.py
-/home/nipun/ros2RB_ws/install/assignment1_cpp/lib/assignment1_cpp/temp_pub
-/home/nipun/ros2RB_ws/install/assignment1_cpp/lib/assignment1_cpp/temp_analysis
-/home/nipun/ros2RB_ws/install/assignment1_cpp/lib/assignment1_cpp/status_sub
+/home/nipun/ros2RB_ws/install/assignment1_cpp/lib/assignment1_cpp/NODE1
+/home/nipun/ros2RB_ws/install/assignment1_cpp/lib/assignment1_cpp/NODE2
+/home/nipun/ros2RB_ws/install/assignment1_cpp/lib/assignment1_cpp/NODE3
 /home/nipun/ros2RB_ws/install/assignment1_cpp/share/ament_index/resource_index/package_run_dependencies/assignment1_cpp
 /home/nipun/ros2RB_ws/install/assignment1_cpp/share/ament_index/resource_index/parent_prefix_path/assignment1_cpp
 /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/environment/ament_prefix_path.sh

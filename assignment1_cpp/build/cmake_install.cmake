@@ -47,61 +47,61 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp/temp_pub" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp/temp_pub")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp/NODE1" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp/NODE1")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp/temp_pub"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp/NODE1"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp" TYPE EXECUTABLE FILES "/home/nipun/ros2RB_ws/assignment1_cpp/build/temp_pub")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp/temp_pub" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp/temp_pub")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp" TYPE EXECUTABLE FILES "/home/nipun/ros2RB_ws/assignment1_cpp/build/NODE1")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp/NODE1" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp/NODE1")
     file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp/temp_pub"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp/NODE1"
          OLD_RPATH "/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp/temp_pub")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp/NODE1")
     endif()
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp/temp_analysis" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp/temp_analysis")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp/NODE2" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp/NODE2")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp/temp_analysis"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp/NODE2"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp" TYPE EXECUTABLE FILES "/home/nipun/ros2RB_ws/assignment1_cpp/build/temp_analysis")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp/temp_analysis" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp/temp_analysis")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp" TYPE EXECUTABLE FILES "/home/nipun/ros2RB_ws/assignment1_cpp/build/NODE2")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp/NODE2" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp/NODE2")
     file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp/temp_analysis"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp/NODE2"
          OLD_RPATH "/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp/temp_analysis")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp/NODE2")
     endif()
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp/status_sub" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp/status_sub")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp/NODE3" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp/NODE3")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp/status_sub"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp/NODE3"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp" TYPE EXECUTABLE FILES "/home/nipun/ros2RB_ws/assignment1_cpp/build/status_sub")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp/status_sub" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp/status_sub")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp" TYPE EXECUTABLE FILES "/home/nipun/ros2RB_ws/assignment1_cpp/build/NODE3")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp/NODE3" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp/NODE3")
     file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp/status_sub"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp/NODE3"
          OLD_RPATH "/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp/status_sub")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/assignment1_cpp/NODE3")
     endif()
   endif()
 endif()

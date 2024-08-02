@@ -1,0 +1,200 @@
+[0.000000] (-) TimerEvent: {}
+[0.000108] (-) JobUnselected: {'identifier': 'assignment1'}
+[0.000133] (-) JobUnselected: {'identifier': 'simple_pkg'}
+[0.000153] (-) JobUnselected: {'identifier': 'simple_pkg_cpp'}
+[0.000170] (assignment1_cpp) JobQueued: {'identifier': 'assignment1_cpp', 'dependencies': OrderedDict()}
+[0.000187] (assignment1_cpp) JobStarted: {'identifier': 'assignment1_cpp'}
+[0.027544] (assignment1_cpp) JobProgress: {'identifier': 'assignment1_cpp', 'progress': 'cmake'}
+[0.040190] (assignment1_cpp) JobProgress: {'identifier': 'assignment1_cpp', 'progress': 'build'}
+[0.041425] (assignment1_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nipun/ros2RB_ws/build/assignment1_cpp', '--', '-j3', '-l3'], 'cwd': '/home/nipun/ros2RB_ws/build/assignment1_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nipun'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nipun/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nipun'), ('OLDPWD', '/home/nipun'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1365'), ('SYSTEMD_EXEC_PID', '1715'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3302'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nipun/ros2RB_ws/install:/home/nipun/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nipun'), ('JOURNAL_STREAM', '8:23999'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nipun'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nipun-virtual-machine:@/tmp/.ICE-unix/1496,unix/nipun-virtual-machine:/tmp/.ICE-unix/1496'), ('INVOCATION_ID', 'adf28d01ce4c454ebaa0bc9dc59d3783'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W8ZXR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nipun/ros2RB_ws/install/simple_pkg_cpp:/home/nipun/ros2RB_ws/install/simple_pkg:/home/nipun/ros2RB_ws/install/learningPubSubPkg:/home/nipun/ros2RB_ws/install/assignment1_cpp:/home/nipun/ros2RB_ws/install/assignment1:/home/nipun/ros2_ws/install/my_robot_bringup:/home/nipun/ros2_ws/install/my_py_pkg:/home/nipun/ros2_ws/install/my_cpp_pkg:/home/nipun/ros2_ws/install/my_robot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:ca30ae44-20af-4852-b0e0-b6ecfb1043b1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nipun/ros2RB_ws/build/assignment1_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nipun/ros2RB_ws/install/simple_pkg/lib/python3.10/site-packages:/home/nipun/ros2RB_ws/install/assignment1/lib/python3.10/site-packages:/home/nipun/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/nipun/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nipun/ros2RB_ws/install/simple_pkg_cpp:/home/nipun/ros2RB_ws/install/learningPubSubPkg:/home/nipun/ros2RB_ws/install/assignment1_cpp:/home/nipun/ros2_ws/install/my_robot_bringup:/home/nipun/ros2_ws/install/my_cpp_pkg:/home/nipun/ros2_ws/install/my_robot_interfaces:/home/nipun/ros2RB_ws/install/simple_pkg:/home/nipun/ros2RB_ws/install/assignment1:/home/nipun/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.099282] (-) TimerEvent: {}
+[0.199539] (-) TimerEvent: {}
+[0.283834] (assignment1_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/temp_analysis.dir/src/temp_analysis.cpp.o\x1b[0m\n'}
+[0.284055] (assignment1_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/status_sub.dir/src/status_sub.cpp.o\x1b[0m\n'}
+[0.284218] (assignment1_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/temp_pub.dir/src/temp_pub.cpp.o\x1b[0m\n'}
+[0.299619] (-) TimerEvent: {}
+[0.400027] (-) TimerEvent: {}
+[0.500420] (-) TimerEvent: {}
+[0.600734] (-) TimerEvent: {}
+[0.701110] (-) TimerEvent: {}
+[0.801455] (-) TimerEvent: {}
+[0.902033] (-) TimerEvent: {}
+[1.002322] (-) TimerEvent: {}
+[1.102641] (-) TimerEvent: {}
+[1.202941] (-) TimerEvent: {}
+[1.303250] (-) TimerEvent: {}
+[1.403588] (-) TimerEvent: {}
+[1.503865] (-) TimerEvent: {}
+[1.604173] (-) TimerEvent: {}
+[1.704523] (-) TimerEvent: {}
+[1.811897] (-) TimerEvent: {}
+[1.912216] (-) TimerEvent: {}
+[2.012544] (-) TimerEvent: {}
+[2.114536] (-) TimerEvent: {}
+[2.224311] (-) TimerEvent: {}
+[2.324645] (-) TimerEvent: {}
+[2.426083] (-) TimerEvent: {}
+[2.526435] (-) TimerEvent: {}
+[2.631770] (-) TimerEvent: {}
+[2.732106] (-) TimerEvent: {}
+[2.833944] (-) TimerEvent: {}
+[2.935513] (-) TimerEvent: {}
+[3.035831] (-) TimerEvent: {}
+[3.139572] (-) TimerEvent: {}
+[3.244315] (-) TimerEvent: {}
+[3.344627] (-) TimerEvent: {}
+[3.444946] (-) TimerEvent: {}
+[3.545225] (-) TimerEvent: {}
+[3.645712] (-) TimerEvent: {}
+[3.746012] (-) TimerEvent: {}
+[3.846491] (-) TimerEvent: {}
+[3.948326] (-) TimerEvent: {}
+[4.052425] (-) TimerEvent: {}
+[4.156328] (-) TimerEvent: {}
+[4.256608] (-) TimerEvent: {}
+[4.356912] (-) TimerEvent: {}
+[4.458300] (-) TimerEvent: {}
+[4.558636] (-) TimerEvent: {}
+[4.660856] (-) TimerEvent: {}
+[4.761186] (-) TimerEvent: {}
+[4.872801] (-) TimerEvent: {}
+[4.974429] (-) TimerEvent: {}
+[5.078742] (-) TimerEvent: {}
+[5.179180] (-) TimerEvent: {}
+[5.280655] (-) TimerEvent: {}
+[5.381474] (-) TimerEvent: {}
+[5.481874] (-) TimerEvent: {}
+[5.582308] (-) TimerEvent: {}
+[5.682760] (-) TimerEvent: {}
+[5.783210] (-) TimerEvent: {}
+[5.883563] (-) TimerEvent: {}
+[5.985449] (-) TimerEvent: {}
+[6.096394] (-) TimerEvent: {}
+[6.197367] (-) TimerEvent: {}
+[6.297667] (-) TimerEvent: {}
+[6.404001] (-) TimerEvent: {}
+[6.504957] (-) TimerEvent: {}
+[6.607180] (-) TimerEvent: {}
+[6.712033] (-) TimerEvent: {}
+[6.812368] (-) TimerEvent: {}
+[6.920766] (-) TimerEvent: {}
+[7.024401] (-) TimerEvent: {}
+[7.124951] (-) TimerEvent: {}
+[7.225376] (-) TimerEvent: {}
+[7.325753] (-) TimerEvent: {}
+[7.426115] (-) TimerEvent: {}
+[7.527075] (-) TimerEvent: {}
+[7.633394] (-) TimerEvent: {}
+[7.733801] (-) TimerEvent: {}
+[7.834227] (-) TimerEvent: {}
+[7.935678] (-) TimerEvent: {}
+[8.036115] (-) TimerEvent: {}
+[8.136530] (-) TimerEvent: {}
+[8.237056] (-) TimerEvent: {}
+[8.337515] (-) TimerEvent: {}
+[8.437799] (-) TimerEvent: {}
+[8.538107] (-) TimerEvent: {}
+[8.638830] (-) TimerEvent: {}
+[8.740382] (-) TimerEvent: {}
+[8.840754] (-) TimerEvent: {}
+[8.941288] (-) TimerEvent: {}
+[9.023442] (assignment1_cpp) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable temp_pub\x1b[0m\n'}
+[9.041433] (-) TimerEvent: {}
+[9.141724] (-) TimerEvent: {}
+[9.242131] (-) TimerEvent: {}
+[9.342525] (-) TimerEvent: {}
+[9.380688] (assignment1_cpp) StdoutLine: {'line': b'[ 66%] Built target temp_pub\n'}
+[9.442735] (-) TimerEvent: {}
+[9.543049] (-) TimerEvent: {}
+[9.643397] (-) TimerEvent: {}
+[9.743838] (-) TimerEvent: {}
+[9.845336] (-) TimerEvent: {}
+[9.945613] (-) TimerEvent: {}
+[10.045999] (-) TimerEvent: {}
+[10.146303] (-) TimerEvent: {}
+[10.246606] (-) TimerEvent: {}
+[10.346890] (-) TimerEvent: {}
+[10.447178] (-) TimerEvent: {}
+[10.547478] (-) TimerEvent: {}
+[10.647779] (-) TimerEvent: {}
+[10.748051] (-) TimerEvent: {}
+[10.853826] (-) TimerEvent: {}
+[10.954141] (-) TimerEvent: {}
+[11.054447] (-) TimerEvent: {}
+[11.154726] (-) TimerEvent: {}
+[11.255010] (-) TimerEvent: {}
+[11.355296] (-) TimerEvent: {}
+[11.455572] (-) TimerEvent: {}
+[11.564514] (-) TimerEvent: {}
+[11.664805] (-) TimerEvent: {}
+[11.765066] (-) TimerEvent: {}
+[11.865325] (-) TimerEvent: {}
+[11.965581] (-) TimerEvent: {}
+[12.065883] (-) TimerEvent: {}
+[12.166167] (-) TimerEvent: {}
+[12.266453] (-) TimerEvent: {}
+[12.366744] (-) TimerEvent: {}
+[12.467001] (-) TimerEvent: {}
+[12.567465] (-) TimerEvent: {}
+[12.667727] (-) TimerEvent: {}
+[12.767995] (-) TimerEvent: {}
+[12.868276] (-) TimerEvent: {}
+[12.968543] (-) TimerEvent: {}
+[13.068836] (-) TimerEvent: {}
+[13.169120] (-) TimerEvent: {}
+[13.269377] (-) TimerEvent: {}
+[13.369659] (-) TimerEvent: {}
+[13.471846] (-) TimerEvent: {}
+[13.572174] (-) TimerEvent: {}
+[13.577090] (assignment1_cpp) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable status_sub\x1b[0m\n'}
+[13.672333] (-) TimerEvent: {}
+[13.772610] (-) TimerEvent: {}
+[13.872863] (-) TimerEvent: {}
+[13.973165] (-) TimerEvent: {}
+[14.026756] (assignment1_cpp) StdoutLine: {'line': b'[ 83%] Built target status_sub\n'}
+[14.073569] (-) TimerEvent: {}
+[14.173976] (-) TimerEvent: {}
+[14.281351] (-) TimerEvent: {}
+[14.381858] (-) TimerEvent: {}
+[14.482154] (-) TimerEvent: {}
+[14.596920] (-) TimerEvent: {}
+[14.700382] (-) TimerEvent: {}
+[14.800727] (-) TimerEvent: {}
+[14.862576] (assignment1_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable temp_analysis\x1b[0m\n'}
+[14.900861] (-) TimerEvent: {}
+[15.007628] (-) TimerEvent: {}
+[15.107943] (-) TimerEvent: {}
+[15.208219] (-) TimerEvent: {}
+[15.308469] (-) TimerEvent: {}
+[15.321963] (assignment1_cpp) StdoutLine: {'line': b'[100%] Built target temp_analysis\n'}
+[15.333459] (assignment1_cpp) CommandEnded: {'returncode': 0}
+[15.364542] (assignment1_cpp) JobProgress: {'identifier': 'assignment1_cpp', 'progress': 'install'}
+[15.373433] (assignment1_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nipun/ros2RB_ws/build/assignment1_cpp'], 'cwd': '/home/nipun/ros2RB_ws/build/assignment1_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nipun'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nipun/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nipun'), ('OLDPWD', '/home/nipun'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1365'), ('SYSTEMD_EXEC_PID', '1715'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3302'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nipun/ros2RB_ws/install:/home/nipun/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nipun'), ('JOURNAL_STREAM', '8:23999'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nipun'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nipun-virtual-machine:@/tmp/.ICE-unix/1496,unix/nipun-virtual-machine:/tmp/.ICE-unix/1496'), ('INVOCATION_ID', 'adf28d01ce4c454ebaa0bc9dc59d3783'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W8ZXR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nipun/ros2RB_ws/install/simple_pkg_cpp:/home/nipun/ros2RB_ws/install/simple_pkg:/home/nipun/ros2RB_ws/install/learningPubSubPkg:/home/nipun/ros2RB_ws/install/assignment1_cpp:/home/nipun/ros2RB_ws/install/assignment1:/home/nipun/ros2_ws/install/my_robot_bringup:/home/nipun/ros2_ws/install/my_py_pkg:/home/nipun/ros2_ws/install/my_cpp_pkg:/home/nipun/ros2_ws/install/my_robot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:ca30ae44-20af-4852-b0e0-b6ecfb1043b1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nipun/ros2RB_ws/build/assignment1_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nipun/ros2RB_ws/install/simple_pkg/lib/python3.10/site-packages:/home/nipun/ros2RB_ws/install/assignment1/lib/python3.10/site-packages:/home/nipun/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/nipun/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nipun/ros2RB_ws/install/simple_pkg_cpp:/home/nipun/ros2RB_ws/install/learningPubSubPkg:/home/nipun/ros2RB_ws/install/assignment1_cpp:/home/nipun/ros2_ws/install/my_robot_bringup:/home/nipun/ros2_ws/install/my_cpp_pkg:/home/nipun/ros2_ws/install/my_robot_interfaces:/home/nipun/ros2RB_ws/install/simple_pkg:/home/nipun/ros2RB_ws/install/assignment1:/home/nipun/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[15.395353] (assignment1_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.396521] (assignment1_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/launch\n'}
+[15.396668] (assignment1_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/launch/assignment1_cpp_launch.py\n'}
+[15.399930] (assignment1_cpp) StdoutLine: {'line': b'-- Installing: /home/nipun/ros2RB_ws/install/assignment1_cpp/lib/assignment1_cpp/temp_pub\n'}
+[15.401317] (assignment1_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/nipun/ros2RB_ws/install/assignment1_cpp/lib/assignment1_cpp/temp_pub" to ""\n'}
+[15.404139] (assignment1_cpp) StdoutLine: {'line': b'-- Installing: /home/nipun/ros2RB_ws/install/assignment1_cpp/lib/assignment1_cpp/temp_analysis\n'}
+[15.407786] (assignment1_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/nipun/ros2RB_ws/install/assignment1_cpp/lib/assignment1_cpp/temp_analysis" to ""\n'}
+[15.408951] (-) TimerEvent: {}
+[15.409902] (assignment1_cpp) StdoutLine: {'line': b'-- Installing: /home/nipun/ros2RB_ws/install/assignment1_cpp/lib/assignment1_cpp/status_sub\n'}
+[15.413748] (assignment1_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/nipun/ros2RB_ws/install/assignment1_cpp/lib/assignment1_cpp/status_sub" to ""\n'}
+[15.413949] (assignment1_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/ament_index/resource_index/package_run_dependencies/assignment1_cpp\n'}
+[15.414068] (assignment1_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/ament_index/resource_index/parent_prefix_path/assignment1_cpp\n'}
+[15.414208] (assignment1_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/environment/ament_prefix_path.sh\n'}
+[15.414321] (assignment1_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/environment/ament_prefix_path.dsv\n'}
+[15.414474] (assignment1_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/environment/path.sh\n'}
+[15.414620] (assignment1_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/environment/path.dsv\n'}
+[15.414746] (assignment1_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/local_setup.bash\n'}
+[15.414855] (assignment1_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/local_setup.sh\n'}
+[15.414991] (assignment1_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/local_setup.zsh\n'}
+[15.415114] (assignment1_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/local_setup.dsv\n'}
+[15.415202] (assignment1_cpp) StdoutLine: {'line': b'-- Installing: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/package.dsv\n'}
+[15.415870] (assignment1_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/ament_index/resource_index/packages/assignment1_cpp\n'}
+[15.415966] (assignment1_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/cmake/assignment1_cppConfig.cmake\n'}
+[15.416037] (assignment1_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/cmake/assignment1_cppConfig-version.cmake\n'}
+[15.416174] (assignment1_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/package.xml\n'}
+[15.418054] (assignment1_cpp) CommandEnded: {'returncode': 0}
+[15.488749] (assignment1_cpp) JobEnded: {'identifier': 'assignment1_cpp', 'rc': 0}
+[15.489520] (-) EventReactorShutdown: {}

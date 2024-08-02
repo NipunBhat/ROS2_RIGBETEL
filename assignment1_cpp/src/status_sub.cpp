@@ -10,9 +10,9 @@ typedef std_msgs::msg::Bool BOOL;
 class CStatusSub : public rclcpp::Node
 {
 public:
-    CStatusSub() : Node("status_node")
+    CStatusSub() : Node("NODE3")
     {
-        m_hStatusSub = this->create_subscription<BOOL>("Topic2", 10, std::bind(&CStatusSub::_declareStatus, this, _1));
+        m_hStatusSub = this->create_subscription<BOOL>("TOPIC2", 10, std::bind(&CStatusSub::_declareStatus, this, _1));
     }
 
     ~CStatusSub()
