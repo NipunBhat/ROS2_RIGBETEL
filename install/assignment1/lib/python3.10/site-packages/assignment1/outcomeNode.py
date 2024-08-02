@@ -6,7 +6,7 @@ from std_msgs.msg import Bool
 class outcomSubscriber(Node):
     def __init__(self) -> None:
         try:
-            super().__init__("outcome_sub")
+            super().__init__("NODE3")
             self.__sub = None
             
             self.__start_sub()
@@ -15,7 +15,7 @@ class outcomSubscriber(Node):
 
     def __start_sub(self) -> None:
         try:
-            self.create_subscription(Bool, "Topic2", self.__log_status, 10)
+            self.create_subscription(Bool, "TOPIC2", self.__log_status, 10)
         except Exception as e:
             self.get_logger().error(str(e))
     

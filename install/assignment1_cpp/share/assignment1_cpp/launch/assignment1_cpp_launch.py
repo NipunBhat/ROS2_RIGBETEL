@@ -5,17 +5,17 @@ def generate_launch_description():
     return LaunchDescription([
         Node(
             package='assignment1_cpp',
-            executable='temp_pub',
-            name='temp_pub'
+            executable='NODE1',
+            name='NODE1'
         ),
         Node(
             package='assignment1_cpp',
-            executable='temp_analysis',
-            name='temp_analysis'
+            executable='NODE2',
+            name='NODE2'
         ),
         Node(
             package='assignment1_cpp',
-            executable='status_sub',
-            name='status_sub',
+            executable='NODE3',
+            name='NODE3',
         )
     ])

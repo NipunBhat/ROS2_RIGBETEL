@@ -11,9 +11,9 @@ typedef std_msgs::msg::Float32 FLOAT32;
 class CTempPub : public rclcpp::Node
 {
 public:
-    CTempPub() : Node("temp_pub")
+    CTempPub() : Node("NODE1")
     {
-        m_pPub = this->create_publisher<FLOAT32>("Topic1", 10);
+        m_pPub = this->create_publisher<FLOAT32>("TOPIC1", 10);
         m_pTimer = this->create_wall_timer(500ms, std::bind(&CTempPub::timer_callback, this));
     }
     ~CTempPub()

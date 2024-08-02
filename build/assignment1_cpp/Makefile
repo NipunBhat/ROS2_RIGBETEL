@@ -198,50 +198,50 @@ assignment1_cpp_uninstall/fast:
 .PHONY : assignment1_cpp_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named temp_pub
+# Target rules for targets named NODE1
 
 # Build rule for target.
-temp_pub: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 temp_pub
-.PHONY : temp_pub
+NODE1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NODE1
+.PHONY : NODE1
 
 # fast build rule for target.
-temp_pub/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_pub.dir/build.make CMakeFiles/temp_pub.dir/build
-.PHONY : temp_pub/fast
+NODE1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NODE1.dir/build.make CMakeFiles/NODE1.dir/build
+.PHONY : NODE1/fast
 
 #=============================================================================
-# Target rules for targets named temp_analysis
+# Target rules for targets named NODE2
 
 # Build rule for target.
-temp_analysis: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 temp_analysis
-.PHONY : temp_analysis
+NODE2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NODE2
+.PHONY : NODE2
 
 # fast build rule for target.
-temp_analysis/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_analysis.dir/build.make CMakeFiles/temp_analysis.dir/build
-.PHONY : temp_analysis/fast
+NODE2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NODE2.dir/build.make CMakeFiles/NODE2.dir/build
+.PHONY : NODE2/fast
 
 #=============================================================================
-# Target rules for targets named status_sub
+# Target rules for targets named NODE3
 
 # Build rule for target.
-status_sub: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 status_sub
-.PHONY : status_sub
+NODE3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NODE3
+.PHONY : NODE3
 
 # fast build rule for target.
-status_sub/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/status_sub.dir/build.make CMakeFiles/status_sub.dir/build
-.PHONY : status_sub/fast
+NODE3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NODE3.dir/build.make CMakeFiles/NODE3.dir/build
+.PHONY : NODE3/fast
 
 src/status_sub.o: src/status_sub.cpp.o
 .PHONY : src/status_sub.o
 
 # target to build an object file
 src/status_sub.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/status_sub.dir/build.make CMakeFiles/status_sub.dir/src/status_sub.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NODE3.dir/build.make CMakeFiles/NODE3.dir/src/status_sub.cpp.o
 .PHONY : src/status_sub.cpp.o
 
 src/status_sub.i: src/status_sub.cpp.i
@@ -249,7 +249,7 @@ src/status_sub.i: src/status_sub.cpp.i
 
 # target to preprocess a source file
 src/status_sub.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/status_sub.dir/build.make CMakeFiles/status_sub.dir/src/status_sub.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NODE3.dir/build.make CMakeFiles/NODE3.dir/src/status_sub.cpp.i
 .PHONY : src/status_sub.cpp.i
 
 src/status_sub.s: src/status_sub.cpp.s
@@ -257,7 +257,7 @@ src/status_sub.s: src/status_sub.cpp.s
 
 # target to generate assembly for a file
 src/status_sub.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/status_sub.dir/build.make CMakeFiles/status_sub.dir/src/status_sub.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NODE3.dir/build.make CMakeFiles/NODE3.dir/src/status_sub.cpp.s
 .PHONY : src/status_sub.cpp.s
 
 src/temp_analysis.o: src/temp_analysis.cpp.o
@@ -265,7 +265,7 @@ src/temp_analysis.o: src/temp_analysis.cpp.o
 
 # target to build an object file
 src/temp_analysis.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_analysis.dir/build.make CMakeFiles/temp_analysis.dir/src/temp_analysis.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NODE2.dir/build.make CMakeFiles/NODE2.dir/src/temp_analysis.cpp.o
 .PHONY : src/temp_analysis.cpp.o
 
 src/temp_analysis.i: src/temp_analysis.cpp.i
@@ -273,7 +273,7 @@ src/temp_analysis.i: src/temp_analysis.cpp.i
 
 # target to preprocess a source file
 src/temp_analysis.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_analysis.dir/build.make CMakeFiles/temp_analysis.dir/src/temp_analysis.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NODE2.dir/build.make CMakeFiles/NODE2.dir/src/temp_analysis.cpp.i
 .PHONY : src/temp_analysis.cpp.i
 
 src/temp_analysis.s: src/temp_analysis.cpp.s
@@ -281,7 +281,7 @@ src/temp_analysis.s: src/temp_analysis.cpp.s
 
 # target to generate assembly for a file
 src/temp_analysis.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_analysis.dir/build.make CMakeFiles/temp_analysis.dir/src/temp_analysis.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NODE2.dir/build.make CMakeFiles/NODE2.dir/src/temp_analysis.cpp.s
 .PHONY : src/temp_analysis.cpp.s
 
 src/temp_pub.o: src/temp_pub.cpp.o
@@ -289,7 +289,7 @@ src/temp_pub.o: src/temp_pub.cpp.o
 
 # target to build an object file
 src/temp_pub.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_pub.dir/build.make CMakeFiles/temp_pub.dir/src/temp_pub.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NODE1.dir/build.make CMakeFiles/NODE1.dir/src/temp_pub.cpp.o
 .PHONY : src/temp_pub.cpp.o
 
 src/temp_pub.i: src/temp_pub.cpp.i
@@ -297,7 +297,7 @@ src/temp_pub.i: src/temp_pub.cpp.i
 
 # target to preprocess a source file
 src/temp_pub.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_pub.dir/build.make CMakeFiles/temp_pub.dir/src/temp_pub.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NODE1.dir/build.make CMakeFiles/NODE1.dir/src/temp_pub.cpp.i
 .PHONY : src/temp_pub.cpp.i
 
 src/temp_pub.s: src/temp_pub.cpp.s
@@ -305,7 +305,7 @@ src/temp_pub.s: src/temp_pub.cpp.s
 
 # target to generate assembly for a file
 src/temp_pub.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/temp_pub.dir/build.make CMakeFiles/temp_pub.dir/src/temp_pub.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NODE1.dir/build.make CMakeFiles/NODE1.dir/src/temp_pub.cpp.s
 .PHONY : src/temp_pub.cpp.s
 
 # Help Target
@@ -323,9 +323,9 @@ help:
 	@echo "... test"
 	@echo "... assignment1_cpp_uninstall"
 	@echo "... uninstall"
-	@echo "... status_sub"
-	@echo "... temp_analysis"
-	@echo "... temp_pub"
+	@echo "... NODE1"
+	@echo "... NODE2"
+	@echo "... NODE3"
 	@echo "... src/status_sub.o"
 	@echo "... src/status_sub.i"
 	@echo "... src/status_sub.s"

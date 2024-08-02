@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-43dea25ec12ca09b62f2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "assignment1_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "NODE1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NODE1-Debug-553b28aa41576ece876f.json",
+					"name" : "NODE1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NODE2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NODE2-Debug-25f2e2fc1e79f10a5e5f.json",
+					"name" : "NODE2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NODE3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NODE3-Debug-bd47451d71db92425a26.json",
+					"name" : "NODE3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "assignment1_cpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-assignment1_cpp_uninstall-Debug-d1395db1fcdbfa25695b.json",
+					"name" : "assignment1_cpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-84f9d3e26bb1215f4845.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nipun/ros2RB_ws/assignment1_cpp/build",
+		"source" : "/home/nipun/ros2RB_ws/assignment1_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

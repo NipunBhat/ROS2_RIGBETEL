@@ -6,7 +6,7 @@ from std_msgs.msg import Float32, Bool
 class AnalysisNode(Node):
     def __init__(self) -> None:
         try:
-            super().__init__("temp_analysis")
+            super().__init__("NODE2")
             self.__temp_sub = None
             self.__status_pub = None
             
@@ -17,13 +17,13 @@ class AnalysisNode(Node):
             
     def __init_status_pub(self) -> None:
         try:
-            self.__status_pub = self.create_publisher(Bool, "Topic2", 10)
+            self.__status_pub = self.create_publisher(Bool, "TOPIC2", 10)
         except Exception as e:
             self.get_logger().error(str(e))
             
     def __start_sub(self) -> None:
         try:
-            self.create_subscription(Float32, "Topic1", self.__analyse_temp, 10)
+            self.create_subscription(Float32, "TOPIC1", self.__analyse_temp, 10)
         except Exception as e:
             self.get_logger(str(e))
     

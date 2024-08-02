@@ -8,7 +8,7 @@
 
 using std::placeholders::_1;
 
-static std::unordered_map<int, std::string> topics = {{1 , "Topic1"}, {2, "Topic2"},};
+static std::unordered_map<int, std::string> topics = {{1 , "TOPIC1"}, {2, "TOPIC2"},};
 
 typedef std_msgs::msg::Bool BOOL;
 typedef std_msgs::msg::Float32 FLOAT32;
@@ -16,7 +16,7 @@ typedef std_msgs::msg::Float32 FLOAT32;
 class CTempPub : public rclcpp::Node
 {
 public:
-    CTempPub() : rclcpp::Node("temp_node")
+    CTempPub() : rclcpp::Node("NODE2")
     {
         m_pPub = this->create_publisher<BOOL>(topics[2], 10);
         m_pSub = this->create_subscription<FLOAT32>(topics[1] , 10, std::bind(&CTempPub::_analyseTemp, this, _1));
