@@ -1,1 +1,0 @@
-/home/nipun/ros2RB_ws/assignment1/setup.py

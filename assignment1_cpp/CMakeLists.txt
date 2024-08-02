@@ -33,6 +33,10 @@ ament_target_dependencies(temp_pub rclcpp std_msgs)
 ament_target_dependencies(temp_analysis rclcpp std_msgs)
 ament_target_dependencies(status_sub rclcpp std_msgs)
 
+install(DIRECTORY
+launch
+DESTINATION share/${PROJECT_NAME})
+
 install(TARGETS
   temp_pub
   temp_analysis
