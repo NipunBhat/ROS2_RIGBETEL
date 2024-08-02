@@ -10,4 +10,9 @@ Implemented the solution in C++ (assignment1_cpp) and Python (assignment1)
 
 Results from assignment 1:
 
-Results from assignment 2:
+c++ 
+
+![Screenshot from 2024-08-02 09-19-59](https://github.com/user-attachments/assets/1cdf1fe1-3d14-48b9-ad0b-a73ce3cbe4f1)
+
+Python
+
