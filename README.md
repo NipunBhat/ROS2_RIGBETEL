@@ -16,3 +16,5 @@ c++
 
 Python
 
+![Screenshot from 2024-08-02 10-32-52](https://github.com/user-attachments/assets/875c0e60-db05-4024-9c1f-f9428fc4759e)
+
