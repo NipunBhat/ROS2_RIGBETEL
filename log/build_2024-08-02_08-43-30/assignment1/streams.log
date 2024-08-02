@@ -1,0 +1,37 @@
+[1.408s] Invoking command in '/home/nipun/ros2RB_ws/build/assignment1': PYTHONPATH=/home/nipun/ros2RB_ws/build/assignment1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nipun/ros2RB_ws/install/assignment1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/nipun/ros2RB_ws/build/assignment1/build
+[1.906s] running develop
+[2.215s] Removing /home/nipun/ros2RB_ws/install/assignment1/lib/python3.10/site-packages/assignment1.egg-link (link to .)
+[2.261s] Invoked command in '/home/nipun/ros2RB_ws/build/assignment1' returned '0': PYTHONPATH=/home/nipun/ros2RB_ws/build/assignment1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nipun/ros2RB_ws/install/assignment1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/nipun/ros2RB_ws/build/assignment1/build
+[2.262s] Invoking command in '/home/nipun/ros2RB_ws/assignment1': PYTHONPATH=/home/nipun/ros2RB_ws/build/assignment1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nipun/ros2RB_ws/install/assignment1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/assignment1 build --build-base /home/nipun/ros2RB_ws/build/assignment1/build install --record /home/nipun/ros2RB_ws/build/assignment1/install.log --single-version-externally-managed install_data --force
+[2.639s] running egg_info
+[2.641s] writing ../build/assignment1/assignment1.egg-info/PKG-INFO
+[2.641s] writing dependency_links to ../build/assignment1/assignment1.egg-info/dependency_links.txt
+[2.642s] writing entry points to ../build/assignment1/assignment1.egg-info/entry_points.txt
+[2.642s] writing requirements to ../build/assignment1/assignment1.egg-info/requires.txt
+[2.642s] writing top-level names to ../build/assignment1/assignment1.egg-info/top_level.txt
+[2.645s] reading manifest file '../build/assignment1/assignment1.egg-info/SOURCES.txt'
+[2.646s] writing manifest file '../build/assignment1/assignment1.egg-info/SOURCES.txt'
+[2.646s] running build
+[2.646s] running build_py
+[2.647s] running install
+[2.647s] running install_lib
+[2.648s] creating /home/nipun/ros2RB_ws/install/assignment1/lib/python3.10/site-packages/assignment1
+[2.648s] copying /home/nipun/ros2RB_ws/build/assignment1/build/lib/assignment1/temperatureNode.py -> /home/nipun/ros2RB_ws/install/assignment1/lib/python3.10/site-packages/assignment1
+[2.648s] copying /home/nipun/ros2RB_ws/build/assignment1/build/lib/assignment1/analysisNode.py -> /home/nipun/ros2RB_ws/install/assignment1/lib/python3.10/site-packages/assignment1
+[2.648s] copying /home/nipun/ros2RB_ws/build/assignment1/build/lib/assignment1/__init__.py -> /home/nipun/ros2RB_ws/install/assignment1/lib/python3.10/site-packages/assignment1
+[2.648s] copying /home/nipun/ros2RB_ws/build/assignment1/build/lib/assignment1/outcomeNode.py -> /home/nipun/ros2RB_ws/install/assignment1/lib/python3.10/site-packages/assignment1
+[2.649s] byte-compiling /home/nipun/ros2RB_ws/install/assignment1/lib/python3.10/site-packages/assignment1/temperatureNode.py to temperatureNode.cpython-310.pyc
+[2.649s] byte-compiling /home/nipun/ros2RB_ws/install/assignment1/lib/python3.10/site-packages/assignment1/analysisNode.py to analysisNode.cpython-310.pyc
+[2.650s] byte-compiling /home/nipun/ros2RB_ws/install/assignment1/lib/python3.10/site-packages/assignment1/__init__.py to __init__.cpython-310.pyc
+[2.650s] byte-compiling /home/nipun/ros2RB_ws/install/assignment1/lib/python3.10/site-packages/assignment1/outcomeNode.py to outcomeNode.cpython-310.pyc
+[2.650s] running install_data
+[2.651s] copying resource/assignment1 -> /home/nipun/ros2RB_ws/install/assignment1/share/ament_index/resource_index/packages
+[2.651s] copying package.xml -> /home/nipun/ros2RB_ws/install/assignment1/share/assignment1
+[2.651s] running install_egg_info
+[2.653s] Copying ../build/assignment1/assignment1.egg-info to /home/nipun/ros2RB_ws/install/assignment1/lib/python3.10/site-packages/assignment1-0.0.0-py3.10.egg-info
+[2.654s] running install_scripts
+[2.683s] Installing outcome_sub script to /home/nipun/ros2RB_ws/install/assignment1/lib/assignment1
+[2.683s] Installing temp_analysis script to /home/nipun/ros2RB_ws/install/assignment1/lib/assignment1
+[2.683s] Installing temp_pub script to /home/nipun/ros2RB_ws/install/assignment1/lib/assignment1
+[2.683s] writing list of installed files to '/home/nipun/ros2RB_ws/build/assignment1/install.log'
+[2.709s] Invoked command in '/home/nipun/ros2RB_ws/assignment1' returned '0': PYTHONPATH=/home/nipun/ros2RB_ws/build/assignment1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nipun/ros2RB_ws/install/assignment1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/assignment1 build --build-base /home/nipun/ros2RB_ws/build/assignment1/build install --record /home/nipun/ros2RB_ws/build/assignment1/install.log --single-version-externally-managed install_data --force

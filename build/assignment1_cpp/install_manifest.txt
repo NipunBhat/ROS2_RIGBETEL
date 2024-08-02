@@ -1,3 +1,4 @@
+/home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/launch/assignment1_cpp_launch.py
 /home/nipun/ros2RB_ws/install/assignment1_cpp/lib/assignment1_cpp/temp_pub
 /home/nipun/ros2RB_ws/install/assignment1_cpp/lib/assignment1_cpp/temp_analysis
 /home/nipun/ros2RB_ws/install/assignment1_cpp/lib/assignment1_cpp/status_sub
