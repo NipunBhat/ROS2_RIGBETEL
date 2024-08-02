@@ -1,5 +1,5 @@
 [console_scripts]
-outcome_sub = assignment1.outcomeNode:main
-temp_analysis = assignment1.analysisNode:main
-temp_pub = assignment1.temperatureNode:main
+NODE1 = assignment1.temperatureNode:main
+NODE2 = assignment1.analysisNode:main
+NODE3 = assignment1.outcomeNode:main
 

@@ -1,4 +1,6 @@
 from setuptools import find_packages, setup
+import os
+from glob import glob
 
 package_name = 'assignment1'
 
@@ -10,6 +12,7 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        (os.path.join('share', package_name, 'launch'), glob(os.path.join('launch', '*launch.[pxy][yma]*')))
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -20,9 +23,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'temp_pub=assignment1.temperatureNode:main',
-            'temp_analysis=assignment1.analysisNode:main',
-            'outcome_sub=assignment1.outcomeNode:main',
+            'NODE1=assignment1.temperatureNode:main',
+            'NODE2=assignment1.analysisNode:main',
+            'NODE3=assignment1.outcomeNode:main',
         ],
     },
 )

@@ -8,6 +8,7 @@
 /home/nipun/ros2RB_ws/install/assignment1/lib/python3.10/site-packages/assignment1/__pycache__/outcomeNode.cpython-310.pyc
 /home/nipun/ros2RB_ws/install/assignment1/share/ament_index/resource_index/packages/assignment1
 /home/nipun/ros2RB_ws/install/assignment1/share/assignment1/package.xml
+/home/nipun/ros2RB_ws/install/assignment1/share/assignment1/launch/assignment1_launch.py
 /home/nipun/ros2RB_ws/install/assignment1/lib/python3.10/site-packages/assignment1-0.0.0-py3.10.egg-info/PKG-INFO
 /home/nipun/ros2RB_ws/install/assignment1/lib/python3.10/site-packages/assignment1-0.0.0-py3.10.egg-info/top_level.txt
 /home/nipun/ros2RB_ws/install/assignment1/lib/python3.10/site-packages/assignment1-0.0.0-py3.10.egg-info/SOURCES.txt
@@ -15,6 +16,6 @@
 /home/nipun/ros2RB_ws/install/assignment1/lib/python3.10/site-packages/assignment1-0.0.0-py3.10.egg-info/dependency_links.txt
 /home/nipun/ros2RB_ws/install/assignment1/lib/python3.10/site-packages/assignment1-0.0.0-py3.10.egg-info/entry_points.txt
 /home/nipun/ros2RB_ws/install/assignment1/lib/python3.10/site-packages/assignment1-0.0.0-py3.10.egg-info/requires.txt
-/home/nipun/ros2RB_ws/install/assignment1/lib/assignment1/outcome_sub
-/home/nipun/ros2RB_ws/install/assignment1/lib/assignment1/temp_analysis
-/home/nipun/ros2RB_ws/install/assignment1/lib/assignment1/temp_pub
+/home/nipun/ros2RB_ws/install/assignment1/lib/assignment1/NODE1
+/home/nipun/ros2RB_ws/install/assignment1/lib/assignment1/NODE2
+/home/nipun/ros2RB_ws/install/assignment1/lib/assignment1/NODE3

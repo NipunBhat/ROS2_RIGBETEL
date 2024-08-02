@@ -10,7 +10,7 @@ import random
 class TempPub(Node):
     def __init__(self) -> None:
         try:
-            super().__init__("temp_pub")
+            super().__init__("NODE1")
             self.__publisher = None
             self.__start_publisher()
         except Exception as e:
@@ -19,7 +19,7 @@ class TempPub(Node):
     def __start_publisher(self) -> None:
         try:
             
-            self.__publisher = self.create_publisher(Float32, "Topic1", 10)
+            self.__publisher = self.create_publisher(Float32, "TOPIC1", 10)
             self.create_timer(0.5, self.__publishTemperature)
         except Exception as e:
             self.get_logger().error(str(e))

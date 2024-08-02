@@ -12,6 +12,7 @@ assignment1/__init__.py
 assignment1/analysisNode.py
 assignment1/outcomeNode.py
 assignment1/temperatureNode.py
+launch/assignment1_launch.py
 resource/assignment1
 test/test_copyright.py
 test/test_flake8.py
