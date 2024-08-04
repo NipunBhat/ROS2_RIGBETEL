@@ -1,0 +1,3 @@
+[console_scripts]
+displace_turtle = turtlesim_assignment.move_turtle:main
+

@@ -1,0 +1,55 @@
+[0.020s] Invoking command in '/home/nipun/ros2RB_ws/build/simple_pkg_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nipun/ros2RB_ws/install/simple_pkg:/home/nipun/ros2RB_ws/install/assignment1:/home/nipun/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nipun/ros2RB_ws/build/simple_pkg_cpp -- -j3 -l3
+[0.058s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.251s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.301s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.305s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.316s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.336s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.365s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.475s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.484s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.666s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.982s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.092s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.092s] -- Configured cppcheck include dirs: 
+[1.092s] -- Configured cppcheck exclude dirs and/or files: 
+[1.095s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.099s] -- Added test 'lint_cmake' to check CMake code style
+[1.101s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.115s] -- Added test 'uncrustify' to check C / C++ code style
+[1.115s] -- Configured uncrustify additional arguments: 
+[1.118s] -- Added test 'xmllint' to check XML markup files
+[1.119s] -- Configuring done
+[1.134s] -- Generating done
+[1.137s] -- Build files have been written to: /home/nipun/ros2RB_ws/build/simple_pkg_cpp
+[1.164s] [35m[1mConsolidate compiler generated dependencies of target HelloWorldPublisherCpp[0m
+[1.164s] [35m[1mConsolidate compiler generated dependencies of target HelloWorldSubscriberCpp[0m
+[1.196s] [ 25%] [32mBuilding CXX object CMakeFiles/HelloWorldSubscriberCpp.dir/src/subscriber.cpp.o[0m
+[1.197s] [ 50%] [32mBuilding CXX object CMakeFiles/HelloWorldPublisherCpp.dir/src/publisher.cpp.o[0m
+[6.854s] [ 75%] [32m[1mLinking CXX executable HelloWorldPublisherCpp[0m
+[7.140s] [ 75%] Built target HelloWorldPublisherCpp
+[11.159s] [100%] [32m[1mLinking CXX executable HelloWorldSubscriberCpp[0m
+[11.591s] [100%] Built target HelloWorldSubscriberCpp
+[11.602s] Invoked command in '/home/nipun/ros2RB_ws/build/simple_pkg_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nipun/ros2RB_ws/install/simple_pkg:/home/nipun/ros2RB_ws/install/assignment1:/home/nipun/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nipun/ros2RB_ws/build/simple_pkg_cpp -- -j3 -l3
+[11.632s] Invoking command in '/home/nipun/ros2RB_ws/build/simple_pkg_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nipun/ros2RB_ws/install/simple_pkg:/home/nipun/ros2RB_ws/install/assignment1:/home/nipun/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/nipun/ros2RB_ws/build/simple_pkg_cpp
+[11.644s] -- Install configuration: ""
+[11.644s] -- Installing: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/lib/simple_pkg_cpp/HelloWorldPublisherCpp
+[11.646s] -- Set runtime path of "/home/nipun/ros2RB_ws/install/simple_pkg_cpp/lib/simple_pkg_cpp/HelloWorldPublisherCpp" to ""
+[11.646s] -- Installing: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/lib/simple_pkg_cpp/HelloWorldSubscriberCpp
+[11.650s] -- Set runtime path of "/home/nipun/ros2RB_ws/install/simple_pkg_cpp/lib/simple_pkg_cpp/HelloWorldSubscriberCpp" to ""
+[11.650s] -- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/ament_index/resource_index/package_run_dependencies/simple_pkg_cpp
+[11.650s] -- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/ament_index/resource_index/parent_prefix_path/simple_pkg_cpp
+[11.650s] -- Installing: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/environment/ament_prefix_path.sh
+[11.651s] -- Installing: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/environment/ament_prefix_path.dsv
+[11.651s] -- Installing: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/environment/path.sh
+[11.651s] -- Installing: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/environment/path.dsv
+[11.652s] -- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/local_setup.bash
+[11.652s] -- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/local_setup.sh
+[11.652s] -- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/local_setup.zsh
+[11.652s] -- Installing: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/local_setup.dsv
+[11.653s] -- Installing: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/package.dsv
+[11.653s] -- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/ament_index/resource_index/packages/simple_pkg_cpp
+[11.653s] -- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/cmake/simple_pkg_cppConfig.cmake
+[11.653s] -- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/cmake/simple_pkg_cppConfig-version.cmake
+[11.653s] -- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/package.xml
+[11.657s] Invoked command in '/home/nipun/ros2RB_ws/build/simple_pkg_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nipun/ros2RB_ws/install/simple_pkg:/home/nipun/ros2RB_ws/install/assignment1:/home/nipun/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/nipun/ros2RB_ws/build/simple_pkg_cpp
