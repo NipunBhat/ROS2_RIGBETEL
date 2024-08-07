@@ -22,5 +22,6 @@ Assignment 2:
 2.1) Write a node to displace the turte
 
 2.2) Draw shapes in an open loop
+
 2.2.1) Square
 ![Screenshot from 2024-08-07 10-16-38](https://github.com/user-attachments/assets/91812437-a925-470a-9841-519d5494b428)
