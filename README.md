@@ -18,3 +18,9 @@ Python
 
 ![Screenshot from 2024-08-02 10-32-52](https://github.com/user-attachments/assets/875c0e60-db05-4024-9c1f-f9428fc4759e)
 
+Assignment 2:
+2.1) Write a node to displace the turte
+
+2.2) Draw shapes in an open loop
+2.2.1) Square
+![Screenshot from 2024-08-07 10-16-38](https://github.com/user-attachments/assets/91812437-a925-470a-9841-519d5494b428)
