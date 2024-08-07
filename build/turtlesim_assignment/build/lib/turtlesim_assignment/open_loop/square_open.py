@@ -29,7 +29,7 @@ class ShapeSequence(Node):
                                 
             self.__publisher = None
             self.__start_time = self.get_clock().now()
-
+            
             self.__init_pub()
         except Exception as e:
             self.get_logger().error(str(e))
@@ -37,7 +37,8 @@ class ShapeSequence(Node):
     def __init_pub(self) -> None:
         try:
             self.__publisher = self.create_publisher(Twist, "/turtle1/cmd_vel", 10)
-            self.create_timer(1.0, self.__draw_shapes)
+            time.sleep(1.5)
+            self.create_timer(1.01, self.__draw_shapes)
         except Exception as e:
             self.get_logger.error(str(e))
     
