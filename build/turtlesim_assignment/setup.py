@@ -1,1 +1,0 @@
-/home/nipun/ros2RB_ws/turtlesim_assignment/setup.py

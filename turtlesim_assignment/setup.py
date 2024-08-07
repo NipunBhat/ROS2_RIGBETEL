@@ -22,6 +22,7 @@ setup(
         'console_scripts': [
             'displace_turtle=turtlesim_assignment.move_turtle:main',
             'square_open_loop=turtlesim_assignment.open_loop.square_open:main',
+            'triangle_open_loop=turtlesim_assignment.open_loop.triangle_open:main',
         ],
     },
 )

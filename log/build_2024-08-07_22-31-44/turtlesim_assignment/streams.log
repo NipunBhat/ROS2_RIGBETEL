@@ -1,0 +1,26 @@
+[1.600s] Invoking command in '/home/nipun/ros2RB_ws/turtlesim_assignment': PYTHONPATH=/home/nipun/ros2RB_ws/build/turtlesim_assignment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/turtlesim_assignment build --build-base /home/nipun/ros2RB_ws/build/turtlesim_assignment/build install --record /home/nipun/ros2RB_ws/build/turtlesim_assignment/install.log --single-version-externally-managed install_data
+[2.029s] running egg_info
+[2.033s] writing ../build/turtlesim_assignment/turtlesim_assignment.egg-info/PKG-INFO
+[2.034s] writing dependency_links to ../build/turtlesim_assignment/turtlesim_assignment.egg-info/dependency_links.txt
+[2.036s] writing entry points to ../build/turtlesim_assignment/turtlesim_assignment.egg-info/entry_points.txt
+[2.037s] writing requirements to ../build/turtlesim_assignment/turtlesim_assignment.egg-info/requires.txt
+[2.039s] writing top-level names to ../build/turtlesim_assignment/turtlesim_assignment.egg-info/top_level.txt
+[2.041s] reading manifest file '../build/turtlesim_assignment/turtlesim_assignment.egg-info/SOURCES.txt'
+[2.043s] writing manifest file '../build/turtlesim_assignment/turtlesim_assignment.egg-info/SOURCES.txt'
+[2.043s] running build
+[2.045s] running build_py
+[2.045s] copying turtlesim_assignment/open_loop/triangle_open.py -> /home/nipun/ros2RB_ws/build/turtlesim_assignment/build/lib/turtlesim_assignment/open_loop
+[2.045s] running install
+[2.045s] running install_lib
+[2.045s] copying /home/nipun/ros2RB_ws/build/turtlesim_assignment/build/lib/turtlesim_assignment/open_loop/triangle_open.py -> /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages/turtlesim_assignment/open_loop
+[2.046s] byte-compiling /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages/turtlesim_assignment/open_loop/triangle_open.py to triangle_open.cpython-310.pyc
+[2.047s] running install_data
+[2.047s] running install_egg_info
+[2.049s] removing '/home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages/turtlesim_assignment-0.0.0-py3.10.egg-info' (and everything under it)
+[2.050s] Copying ../build/turtlesim_assignment/turtlesim_assignment.egg-info to /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages/turtlesim_assignment-0.0.0-py3.10.egg-info
+[2.051s] running install_scripts
+[2.078s] Installing displace_turtle script to /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/turtlesim_assignment
+[2.078s] Installing square_open_loop script to /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/turtlesim_assignment
+[2.078s] Installing triangle_open_loop script to /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/turtlesim_assignment
+[2.078s] writing list of installed files to '/home/nipun/ros2RB_ws/build/turtlesim_assignment/install.log'
+[2.107s] Invoked command in '/home/nipun/ros2RB_ws/turtlesim_assignment' returned '0': PYTHONPATH=/home/nipun/ros2RB_ws/build/turtlesim_assignment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/turtlesim_assignment build --build-base /home/nipun/ros2RB_ws/build/turtlesim_assignment/build install --record /home/nipun/ros2RB_ws/build/turtlesim_assignment/install.log --single-version-externally-managed install_data
