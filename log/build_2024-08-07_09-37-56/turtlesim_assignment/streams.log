@@ -1,0 +1,29 @@
+[1.784s] Invoking command in '/home/nipun/ros2RB_ws/turtlesim_assignment': PYTHONPATH=/home/nipun/ros2RB_ws/build/turtlesim_assignment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/turtlesim_assignment build --build-base /home/nipun/ros2RB_ws/build/turtlesim_assignment/build install --record /home/nipun/ros2RB_ws/build/turtlesim_assignment/install.log --single-version-externally-managed install_data
+[2.445s] running egg_info
+[2.447s] writing ../build/turtlesim_assignment/turtlesim_assignment.egg-info/PKG-INFO
+[2.448s] writing dependency_links to ../build/turtlesim_assignment/turtlesim_assignment.egg-info/dependency_links.txt
+[2.448s] writing entry points to ../build/turtlesim_assignment/turtlesim_assignment.egg-info/entry_points.txt
+[2.448s] writing requirements to ../build/turtlesim_assignment/turtlesim_assignment.egg-info/requires.txt
+[2.449s] writing top-level names to ../build/turtlesim_assignment/turtlesim_assignment.egg-info/top_level.txt
+[2.452s] reading manifest file '../build/turtlesim_assignment/turtlesim_assignment.egg-info/SOURCES.txt'
+[2.455s] writing manifest file '../build/turtlesim_assignment/turtlesim_assignment.egg-info/SOURCES.txt'
+[2.456s] running build
+[2.456s] running build_py
+[2.456s] copying turtlesim_assignment/move_turtle.py -> /home/nipun/ros2RB_ws/build/turtlesim_assignment/build/lib/turtlesim_assignment
+[2.458s] copying turtlesim_assignment/square_open.py -> /home/nipun/ros2RB_ws/build/turtlesim_assignment/build/lib/turtlesim_assignment
+[2.458s] running install
+[2.458s] running install_lib
+[2.464s] copying /home/nipun/ros2RB_ws/build/turtlesim_assignment/build/lib/turtlesim_assignment/move_turtle.py -> /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages/turtlesim_assignment
+[2.464s] copying /home/nipun/ros2RB_ws/build/turtlesim_assignment/build/lib/turtlesim_assignment/square_open.py -> /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages/turtlesim_assignment
+[2.465s] byte-compiling /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages/turtlesim_assignment/move_turtle.py to move_turtle.cpython-310.pyc
+[2.471s] byte-compiling /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages/turtlesim_assignment/square_open.py to square_open.cpython-310.pyc
+[2.473s] running install_data
+[2.473s] copying package.xml -> /home/nipun/ros2RB_ws/install/turtlesim_assignment/share/turtlesim_assignment
+[2.473s] running install_egg_info
+[2.477s] removing '/home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages/turtlesim_assignment-0.0.0-py3.10.egg-info' (and everything under it)
+[2.483s] Copying ../build/turtlesim_assignment/turtlesim_assignment.egg-info to /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages/turtlesim_assignment-0.0.0-py3.10.egg-info
+[2.494s] running install_scripts
+[2.529s] Installing displace_turtle script to /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/turtlesim_assignment
+[2.529s] Installing square_open script to /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/turtlesim_assignment
+[2.530s] writing list of installed files to '/home/nipun/ros2RB_ws/build/turtlesim_assignment/install.log'
+[2.571s] Invoked command in '/home/nipun/ros2RB_ws/turtlesim_assignment' returned '0': PYTHONPATH=/home/nipun/ros2RB_ws/build/turtlesim_assignment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/turtlesim_assignment build --build-base /home/nipun/ros2RB_ws/build/turtlesim_assignment/build install --record /home/nipun/ros2RB_ws/build/turtlesim_assignment/install.log --single-version-externally-managed install_data

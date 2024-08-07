@@ -1,0 +1,18 @@
+[0.958s] Invoking command in '/home/nipun/ros2RB_ws/build/turtlesim_assignment': PYTHONPATH=/home/nipun/ros2RB_ws/build/turtlesim_assignment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/nipun/ros2RB_ws/build/turtlesim_assignment/build --no-deps symlink_data
+[1.397s] running develop
+[1.639s] running egg_info
+[1.639s] writing turtlesim_assignment.egg-info/PKG-INFO
+[1.643s] writing dependency_links to turtlesim_assignment.egg-info/dependency_links.txt
+[1.643s] writing entry points to turtlesim_assignment.egg-info/entry_points.txt
+[1.643s] writing requirements to turtlesim_assignment.egg-info/requires.txt
+[1.644s] writing top-level names to turtlesim_assignment.egg-info/top_level.txt
+[1.646s] reading manifest file 'turtlesim_assignment.egg-info/SOURCES.txt'
+[1.648s] writing manifest file 'turtlesim_assignment.egg-info/SOURCES.txt'
+[1.649s] running build_ext
+[1.650s] Creating /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages/turtlesim-assignment.egg-link (link to .)
+[1.651s] Installing displace_turtle script to /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/turtlesim_assignment
+[1.651s] Installing square_open_loop script to /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/turtlesim_assignment
+[1.651s] 
+[1.652s] Installed /home/nipun/ros2RB_ws/build/turtlesim_assignment
+[1.652s] running symlink_data
+[1.686s] Invoked command in '/home/nipun/ros2RB_ws/build/turtlesim_assignment' returned '0': PYTHONPATH=/home/nipun/ros2RB_ws/build/turtlesim_assignment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/nipun/ros2RB_ws/build/turtlesim_assignment/build --no-deps symlink_data

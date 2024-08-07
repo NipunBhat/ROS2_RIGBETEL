@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing turtlesim_assignment.egg-info/PKG-INFO
+writing dependency_links to turtlesim_assignment.egg-info/dependency_links.txt
+writing entry points to turtlesim_assignment.egg-info/entry_points.txt
+writing requirements to turtlesim_assignment.egg-info/requires.txt
+writing top-level names to turtlesim_assignment.egg-info/top_level.txt
+reading manifest file 'turtlesim_assignment.egg-info/SOURCES.txt'
+writing manifest file 'turtlesim_assignment.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages/turtlesim-assignment.egg-link (link to .)
+Installing displace_turtle script to /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/turtlesim_assignment
+Installing square_open script to /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/turtlesim_assignment
+
+Installed /home/nipun/ros2RB_ws/build/turtlesim_assignment
+running symlink_data
+symbolically linking /home/nipun/ros2RB_ws/build/turtlesim_assignment/resource/turtlesim_assignment -> /home/nipun/ros2RB_ws/install/turtlesim_assignment/share/ament_index/resource_index/packages
+symbolically linking /home/nipun/ros2RB_ws/build/turtlesim_assignment/package.xml -> /home/nipun/ros2RB_ws/install/turtlesim_assignment/share/turtlesim_assignment

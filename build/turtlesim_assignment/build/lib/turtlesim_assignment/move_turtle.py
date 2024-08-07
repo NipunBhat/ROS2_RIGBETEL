@@ -1,7 +1,9 @@
 import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import Twist, Vector3
+from std_msgs.msg import Float32
 import random
+
 '''
 This node will move the turtle around, random movements with no real end goal
 '''
@@ -27,7 +29,7 @@ class MoveTurtle(Node):
         try:     
             print("Start of publish random motion")       
             angular_data = Vector3()
-            angular_data.x = random.uniform(1.0, 5.0)
+            angular_data.x = random.uniform(-1.0, 1.0)
             angular_data.y = 0.0
             angular_data.z = 0.0
             print("Set Angular Data")
