@@ -27,6 +27,7 @@ Assignment 2:
 ![Screenshot from 2024-08-07 10-16-38](https://github.com/user-attachments/assets/91812437-a925-470a-9841-519d5494b428)
 
 2.2.2) Triangle
+
 ![Screenshot from 2024-08-07 22-51-47](https://github.com/user-attachments/assets/8a48d141-378b-4a26-9b1e-20e9168bb9ad)
 
 
