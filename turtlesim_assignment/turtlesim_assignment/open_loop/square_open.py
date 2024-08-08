@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 '''
 Draw a square, triangle and a 5 pointer star in a sequence.
 This is done in open loop, so no position feedback is required.

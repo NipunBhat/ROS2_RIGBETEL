@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import rclpy
 from rclpy.node import Node
 from rclpy.duration import Duration
@@ -5,7 +6,6 @@ from geometry_msgs.msg import Twist, Vector3
 from std_msgs.msg import Float32
 import math
 import time
-
 class TraingleOpenLoop(Node):
     def __init__(self)-> None:
         try:
