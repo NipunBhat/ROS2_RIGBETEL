@@ -30,7 +30,7 @@ Assignment 2:
 
 ![Screenshot from 2024-08-07 22-51-47](https://github.com/user-attachments/assets/8a48d141-378b-4a26-9b1e-20e9168bb9ad)
 
-2.2.3) Square
+2.2.3) Star
 
 ![Screenshot from 2024-08-08 21-07-23](https://github.com/user-attachments/assets/103b08bb-f31f-49a2-a238-b6d4bd8f1af0)
 
