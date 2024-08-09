@@ -32,6 +32,6 @@ Assignment 2:
 
 2.2.3) Star
 
-![Screenshot from 2024-08-08 21-07-23](https://github.com/user-attachments/assets/103b08bb-f31f-49a2-a238-b6d4bd8f1af0)
+![Screenshot from 2024-08-09 08-00-20](https://github.com/user-attachments/assets/a510009c-2a37-4959-8a1d-f112eb856273)
 
 
