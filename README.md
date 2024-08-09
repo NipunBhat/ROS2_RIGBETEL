@@ -34,4 +34,20 @@ Assignment 2:
 
 ![Screenshot from 2024-08-09 08-00-20](https://github.com/user-attachments/assets/a510009c-2a37-4959-8a1d-f112eb856273)
 
+2.3) Draw shapes in closed loop
+
+2.3.1) Square 
+
+Same as 2.2.1
+
+2.3.2) Triangle
+
+Same as 2.2.2
+
+2.3.3) Star 
+
+Same as 2.2.3
+
+
+
 
