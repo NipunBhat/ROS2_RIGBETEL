@@ -1,0 +1,22 @@
+[ 50%] Built target HelloWorldPublisherCpp
+[100%] Built target HelloWorldSubscriberCpp
+-- Install configuration: ""
+-- Installing: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/lib/simple_pkg_cpp/HelloWorldPublisherCpp
+-- Set runtime path of "/home/nipun/ros2RB_ws/install/simple_pkg_cpp/lib/simple_pkg_cpp/HelloWorldPublisherCpp" to ""
+-- Installing: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/lib/simple_pkg_cpp/HelloWorldSubscriberCpp
+-- Set runtime path of "/home/nipun/ros2RB_ws/install/simple_pkg_cpp/lib/simple_pkg_cpp/HelloWorldSubscriberCpp" to ""
+-- Installing: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/ament_index/resource_index/package_run_dependencies/simple_pkg_cpp
+-- Installing: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/ament_index/resource_index/parent_prefix_path/simple_pkg_cpp
+-- Installing: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/environment/ament_prefix_path.dsv
+-- Installing: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/environment/path.sh
+-- Installing: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/environment/path.dsv
+-- Installing: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/local_setup.bash
+-- Installing: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/local_setup.sh
+-- Installing: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/local_setup.zsh
+-- Installing: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/local_setup.dsv
+-- Installing: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/package.dsv
+-- Installing: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/ament_index/resource_index/packages/simple_pkg_cpp
+-- Installing: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/cmake/simple_pkg_cppConfig.cmake
+-- Installing: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/cmake/simple_pkg_cppConfig-version.cmake
+-- Installing: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/package.xml
