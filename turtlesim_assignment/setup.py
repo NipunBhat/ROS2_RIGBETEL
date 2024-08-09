@@ -24,6 +24,7 @@ setup(
             'square_open_loop=turtlesim_assignment.open_loop.square_open:main',
             'triangle_open_loop=turtlesim_assignment.open_loop.triangle_open:main',
             'star_open_loop=turtlesim_assignment.open_loop.star_open_loop:main',
+            'square_closed_loop=turtlesim_assignment.closed_loop.square_closed:main',
         ],
     },
 )
