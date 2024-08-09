@@ -40,9 +40,9 @@ class StarOpenLoop(Node):
             
     def __draw_star(self) -> None:
         try:
-            if self.__moving_forward == True and self.__current_side <= 5:
+            if self.__moving_forward == True and self.__current_side < 6:
                 self.__draw_straight_line()
-            elif self.__moving_forward == False and self.__current_side <= 5:
+            elif self.__moving_forward == False and self.__current_side < 6:
                 self.__turn_by_degrees()
             else:
                 self.destroy_node()

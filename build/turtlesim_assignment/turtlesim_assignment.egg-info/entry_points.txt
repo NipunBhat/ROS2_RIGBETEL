@@ -1,6 +1,9 @@
 [console_scripts]
 displace_turtle = turtlesim_assignment.move_turtle:main
+square_closed_loop = turtlesim_assignment.closed_loop.square_closed:main
 square_open_loop = turtlesim_assignment.open_loop.square_open:main
+star_closed_loop = turtlesim_assignment.closed_loop.star_closed:main
 star_open_loop = turtlesim_assignment.open_loop.star_open_loop:main
+triangle_closed_loop = turtlesim_assignment.closed_loop.triangle_closed:main
 triangle_open_loop = turtlesim_assignment.open_loop.triangle_open:main
 

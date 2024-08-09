@@ -14,7 +14,10 @@ test/test_flake8.py
 test/test_pep257.py
 turtlesim_assignment/__init__.py
 turtlesim_assignment/move_turtle.py
-turtlesim_assignment/shapes_closed.py
+turtlesim_assignment/closed_loop/__init__.py
+turtlesim_assignment/closed_loop/square_closed.py
+turtlesim_assignment/closed_loop/star_closed.py
+turtlesim_assignment/closed_loop/triangle_closed.py
 turtlesim_assignment/open_loop/__init__.py
 turtlesim_assignment/open_loop/square_open.py
 turtlesim_assignment/open_loop/star_open_loop.py
