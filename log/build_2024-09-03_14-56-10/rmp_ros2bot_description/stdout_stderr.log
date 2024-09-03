@@ -1,0 +1,16 @@
+running egg_info
+writing ../build/rmp_ros2bot_description/rmp_ros2bot_description.egg-info/PKG-INFO
+writing dependency_links to ../build/rmp_ros2bot_description/rmp_ros2bot_description.egg-info/dependency_links.txt
+writing entry points to ../build/rmp_ros2bot_description/rmp_ros2bot_description.egg-info/entry_points.txt
+writing requirements to ../build/rmp_ros2bot_description/rmp_ros2bot_description.egg-info/requires.txt
+writing top-level names to ../build/rmp_ros2bot_description/rmp_ros2bot_description.egg-info/top_level.txt
+reading manifest file '../build/rmp_ros2bot_description/rmp_ros2bot_description.egg-info/SOURCES.txt'
+writing manifest file '../build/rmp_ros2bot_description/rmp_ros2bot_description.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+creating /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/launch
+creating /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models
+error: can't copy 'models/meshes': doesn't exist or not a regular file

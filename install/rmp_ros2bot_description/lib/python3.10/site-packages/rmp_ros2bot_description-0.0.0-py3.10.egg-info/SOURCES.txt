@@ -8,6 +8,15 @@ setup.py
 ../build/rmp_ros2bot_description/rmp_ros2bot_description.egg-info/requires.txt
 ../build/rmp_ros2bot_description/rmp_ros2bot_description.egg-info/top_level.txt
 ../build/rmp_ros2bot_description/rmp_ros2bot_description.egg-info/zip-safe
+models/meshes/base_link.stl
+models/meshes/caster_1.stl
+models/meshes/left_wheel_1.stl
+models/meshes/lidar_1.stl
+models/meshes/right_wheel_1.stl
+models/urdf/materials.xacro
+models/urdf/rmp_ros2bot.gazebo
+models/urdf/rmp_ros2bot.trans
+models/urdf/rmp_ros2bot.xacro
 resource/rmp_ros2bot_description
 rmp_ros2bot_description/__init__.py
 test/test_copyright.py

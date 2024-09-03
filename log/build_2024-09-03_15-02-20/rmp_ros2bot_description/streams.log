@@ -1,0 +1,16 @@
+[0.884s] Invoking command in '/home/nipun/ros2RB_ws/rmp_ros2bot_description': PYTHONPATH=/home/nipun/ros2RB_ws/build/rmp_ros2bot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nipun/ros2RB_ws/install/rmp_ros2bot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/rmp_ros2bot_description build --build-base /home/nipun/ros2RB_ws/build/rmp_ros2bot_description/build install --record /home/nipun/ros2RB_ws/build/rmp_ros2bot_description/install.log --single-version-externally-managed install_data
+[1.254s] running egg_info
+[1.255s] writing ../build/rmp_ros2bot_description/rmp_ros2bot_description.egg-info/PKG-INFO
+[1.256s] writing dependency_links to ../build/rmp_ros2bot_description/rmp_ros2bot_description.egg-info/dependency_links.txt
+[1.256s] writing entry points to ../build/rmp_ros2bot_description/rmp_ros2bot_description.egg-info/entry_points.txt
+[1.256s] writing requirements to ../build/rmp_ros2bot_description/rmp_ros2bot_description.egg-info/requires.txt
+[1.256s] writing top-level names to ../build/rmp_ros2bot_description/rmp_ros2bot_description.egg-info/top_level.txt
+[1.258s] reading manifest file '../build/rmp_ros2bot_description/rmp_ros2bot_description.egg-info/SOURCES.txt'
+[1.260s] writing manifest file '../build/rmp_ros2bot_description/rmp_ros2bot_description.egg-info/SOURCES.txt'
+[1.260s] running build
+[1.260s] running build_py
+[1.260s] running install
+[1.261s] running install_lib
+[1.262s] running install_data
+[1.262s] error: can't copy 'models/meshes': doesn't exist or not a regular file
+[1.282s] Invoked command in '/home/nipun/ros2RB_ws/rmp_ros2bot_description' returned '1': PYTHONPATH=/home/nipun/ros2RB_ws/build/rmp_ros2bot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nipun/ros2RB_ws/install/rmp_ros2bot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/rmp_ros2bot_description build --build-base /home/nipun/ros2RB_ws/build/rmp_ros2bot_description/build install --record /home/nipun/ros2RB_ws/build/rmp_ros2bot_description/install.log --single-version-externally-managed install_data
