@@ -8,6 +8,7 @@ setup.py
 ../build/rmp_ros2bot_description/rmp_ros2bot_description.egg-info/requires.txt
 ../build/rmp_ros2bot_description/rmp_ros2bot_description.egg-info/top_level.txt
 ../build/rmp_ros2bot_description/rmp_ros2bot_description.egg-info/zip-safe
+launch/gazebo.launch.py
 models/meshes/base_link.stl
 models/meshes/caster_1.stl
 models/meshes/left_wheel_1.stl

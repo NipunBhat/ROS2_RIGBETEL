@@ -2,7 +2,7 @@
 /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/lib/python3.10/site-packages/rmp_ros2bot_description/__pycache__/__init__.cpython-310.pyc
 /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/ament_index/resource_index/packages/rmp_ros2bot_description
 /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/package.xml
-/home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/launch
+/home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/launch/gazebo.launch.py
 /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/meshes/right_wheel_1.stl
 /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/meshes/caster_1.stl
 /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/meshes/left_wheel_1.stl
