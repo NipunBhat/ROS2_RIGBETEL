@@ -1,0 +1,21 @@
+[2.095s] Invoking command in '/home/nipun/ros2RB_ws/rmp_ros2bot_description': PYTHONPATH=/home/nipun/ros2RB_ws/build/rmp_ros2bot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nipun/ros2RB_ws/install/rmp_ros2bot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/rmp_ros2bot_description build --build-base /home/nipun/ros2RB_ws/build/rmp_ros2bot_description/build install --record /home/nipun/ros2RB_ws/build/rmp_ros2bot_description/install.log --single-version-externally-managed install_data
+[2.874s] running egg_info
+[2.874s] writing ../build/rmp_ros2bot_description/rmp_ros2bot_description.egg-info/PKG-INFO
+[2.878s] writing dependency_links to ../build/rmp_ros2bot_description/rmp_ros2bot_description.egg-info/dependency_links.txt
+[2.884s] writing entry points to ../build/rmp_ros2bot_description/rmp_ros2bot_description.egg-info/entry_points.txt
+[2.885s] writing requirements to ../build/rmp_ros2bot_description/rmp_ros2bot_description.egg-info/requires.txt
+[2.886s] writing top-level names to ../build/rmp_ros2bot_description/rmp_ros2bot_description.egg-info/top_level.txt
+[2.901s] reading manifest file '../build/rmp_ros2bot_description/rmp_ros2bot_description.egg-info/SOURCES.txt'
+[2.906s] writing manifest file '../build/rmp_ros2bot_description/rmp_ros2bot_description.egg-info/SOURCES.txt'
+[2.909s] running build
+[2.909s] running build_py
+[2.911s] running install
+[2.911s] running install_lib
+[2.921s] running install_data
+[2.921s] copying launch/state_publisher.launch.py -> /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/launch
+[2.923s] running install_egg_info
+[2.932s] removing '/home/nipun/ros2RB_ws/install/rmp_ros2bot_description/lib/python3.10/site-packages/rmp_ros2bot_description-0.0.0-py3.10.egg-info' (and everything under it)
+[2.938s] Copying ../build/rmp_ros2bot_description/rmp_ros2bot_description.egg-info to /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/lib/python3.10/site-packages/rmp_ros2bot_description-0.0.0-py3.10.egg-info
+[2.938s] running install_scripts
+[2.980s] writing list of installed files to '/home/nipun/ros2RB_ws/build/rmp_ros2bot_description/install.log'
+[3.050s] Invoked command in '/home/nipun/ros2RB_ws/rmp_ros2bot_description' returned '0': PYTHONPATH=/home/nipun/ros2RB_ws/build/rmp_ros2bot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nipun/ros2RB_ws/install/rmp_ros2bot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/rmp_ros2bot_description build --build-base /home/nipun/ros2RB_ws/build/rmp_ros2bot_description/build install --record /home/nipun/ros2RB_ws/build/rmp_ros2bot_description/install.log --single-version-externally-managed install_data

@@ -1,0 +1,44 @@
+[0.483s] Invoking command in '/home/nipun/ros2RB_ws/build/rmp_ros2bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nipun/ros2RB_ws/install/turtlesim_assignment:/home/nipun/ros2RB_ws/install/simple_pkg:/home/nipun/ros2RB_ws/install/assignment1:/home/nipun/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nipun/ros2RB_ws/build/rmp_ros2bot_description -- -j3 -l3
+[0.557s] Invoked command in '/home/nipun/ros2RB_ws/build/rmp_ros2bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nipun/ros2RB_ws/install/turtlesim_assignment:/home/nipun/ros2RB_ws/install/simple_pkg:/home/nipun/ros2RB_ws/install/assignment1:/home/nipun/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nipun/ros2RB_ws/build/rmp_ros2bot_description -- -j3 -l3
+[0.633s] Invoking command in '/home/nipun/ros2RB_ws/build/rmp_ros2bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nipun/ros2RB_ws/install/turtlesim_assignment:/home/nipun/ros2RB_ws/install/simple_pkg:/home/nipun/ros2RB_ws/install/assignment1:/home/nipun/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/nipun/ros2RB_ws/build/rmp_ros2bot_description
+[0.652s] -- Install configuration: ""
+[0.652s] -- Up-to-date: /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models
+[0.652s] -- Up-to-date: /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/LICENSE
+[0.652s] -- Up-to-date: /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/meshes
+[0.652s] -- Up-to-date: /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/meshes/right_wheel_1.stl
+[0.652s] -- Up-to-date: /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/meshes/caster_1.stl
+[0.652s] -- Up-to-date: /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/meshes/left_wheel_1.stl
+[0.654s] -- Up-to-date: /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/meshes/lidar_1.stl
+[0.654s] -- Up-to-date: /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/meshes/base_link.stl
+[0.654s] -- Up-to-date: /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/CMakeLists.txt
+[0.654s] -- Up-to-date: /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/urdf
+[0.654s] -- Up-to-date: /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/urdf/rmp_ros2bot.trans
+[0.654s] -- Up-to-date: /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/urdf/materials.xacro
+[0.655s] -- Up-to-date: /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/urdf/rmp_ros2bot.gazebo
+[0.655s] -- Up-to-date: /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/urdf/rmp_ros2bot.xacro
+[0.655s] -- Up-to-date: /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/package.xml
+[0.666s] -- Up-to-date: /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/launch
+[0.666s] -- Up-to-date: /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/launch/urdf.rviz
+[0.666s] -- Up-to-date: /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/launch/controller.yaml
+[0.666s] -- Up-to-date: /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/launch/controller.launch
+[0.667s] -- Up-to-date: /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/launch/display.launch
+[0.667s] -- Up-to-date: /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/launch/gazebo.launch
+[0.667s] -- Up-to-date: /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/launch
+[0.667s] -- Up-to-date: /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/launch/gazebo.launch.py
+[0.667s] -- Installing: /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/launch/state_publisher.launch.py
+[0.668s] -- Up-to-date: /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/ament_index/resource_index/package_run_dependencies/rmp_ros2bot_description
+[0.668s] -- Up-to-date: /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/ament_index/resource_index/parent_prefix_path/rmp_ros2bot_description
+[0.668s] -- Up-to-date: /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/environment/ament_prefix_path.sh
+[0.670s] -- Up-to-date: /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/environment/ament_prefix_path.dsv
+[0.670s] -- Up-to-date: /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/environment/path.sh
+[0.670s] -- Up-to-date: /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/environment/path.dsv
+[0.670s] -- Up-to-date: /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/local_setup.bash
+[0.670s] -- Up-to-date: /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/local_setup.sh
+[0.670s] -- Up-to-date: /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/local_setup.zsh
+[0.670s] -- Up-to-date: /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/local_setup.dsv
+[0.670s] -- Up-to-date: /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/package.dsv
+[0.670s] -- Up-to-date: /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/ament_index/resource_index/packages/rmp_ros2bot_description
+[0.671s] -- Up-to-date: /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/cmake/rmp_ros2bot_descriptionConfig.cmake
+[0.671s] -- Up-to-date: /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/cmake/rmp_ros2bot_descriptionConfig-version.cmake
+[0.671s] -- Up-to-date: /home/nipun/ros2RB_ws/install/rmp_ros2bot_description/share/rmp_ros2bot_description/package.xml
+[0.671s] Invoked command in '/home/nipun/ros2RB_ws/build/rmp_ros2bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nipun/ros2RB_ws/install/turtlesim_assignment:/home/nipun/ros2RB_ws/install/simple_pkg:/home/nipun/ros2RB_ws/install/assignment1:/home/nipun/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/nipun/ros2RB_ws/build/rmp_ros2bot_description

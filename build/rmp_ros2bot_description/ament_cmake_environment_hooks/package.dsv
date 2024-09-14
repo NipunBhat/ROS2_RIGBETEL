@@ -1,0 +1,4 @@
+source;share/rmp_ros2bot_description/local_setup.bash
+source;share/rmp_ros2bot_description/local_setup.dsv
+source;share/rmp_ros2bot_description/local_setup.sh
+source;share/rmp_ros2bot_description/local_setup.zsh

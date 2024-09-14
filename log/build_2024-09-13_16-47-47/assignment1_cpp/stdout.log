@@ -1,0 +1,33 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/NODE3.dir/src/status_sub.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/NODE1.dir/src/temp_pub.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/NODE2.dir/src/temp_analysis.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable NODE1[0m
+[ 66%] Built target NODE1
+[ 83%] [32m[1mLinking CXX executable NODE3[0m
+[ 83%] Built target NODE3
+[100%] [32m[1mLinking CXX executable NODE2[0m
+[100%] Built target NODE2
+-- Install configuration: ""
+-- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/launch
+-- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/launch/assignment1_cpp_launch.py
+-- Installing: /home/nipun/ros2RB_ws/install/assignment1_cpp/lib/assignment1_cpp/NODE1
+-- Set runtime path of "/home/nipun/ros2RB_ws/install/assignment1_cpp/lib/assignment1_cpp/NODE1" to ""
+-- Installing: /home/nipun/ros2RB_ws/install/assignment1_cpp/lib/assignment1_cpp/NODE2
+-- Set runtime path of "/home/nipun/ros2RB_ws/install/assignment1_cpp/lib/assignment1_cpp/NODE2" to ""
+-- Installing: /home/nipun/ros2RB_ws/install/assignment1_cpp/lib/assignment1_cpp/NODE3
+-- Set runtime path of "/home/nipun/ros2RB_ws/install/assignment1_cpp/lib/assignment1_cpp/NODE3" to ""
+-- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/ament_index/resource_index/package_run_dependencies/assignment1_cpp
+-- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/ament_index/resource_index/parent_prefix_path/assignment1_cpp
+-- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/environment/path.sh
+-- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/environment/path.dsv
+-- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/local_setup.bash
+-- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/local_setup.sh
+-- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/local_setup.zsh
+-- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/local_setup.dsv
+-- Installing: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/package.dsv
+-- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/ament_index/resource_index/packages/assignment1_cpp
+-- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/cmake/assignment1_cppConfig.cmake
+-- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/cmake/assignment1_cppConfig-version.cmake
+-- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/package.xml

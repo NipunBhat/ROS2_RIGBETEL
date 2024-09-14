@@ -1,0 +1,30 @@
+[0.047s] Invoking command in '/home/nipun/ros2RB_ws/build/simple_pkg_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nipun/ros2RB_ws/install/turtlesim_assignment:/home/nipun/ros2RB_ws/install/simple_pkg:/home/nipun/ros2RB_ws/install/rmp_ros2bot_description:/home/nipun/ros2RB_ws/install/assignment1:/home/nipun/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nipun/ros2RB_ws/build/simple_pkg_cpp -- -j3 -l3
+[0.235s] [ 25%] [32mBuilding CXX object CMakeFiles/HelloWorldSubscriberCpp.dir/src/subscriber.cpp.o[0m
+[0.255s] [ 50%] [32mBuilding CXX object CMakeFiles/HelloWorldPublisherCpp.dir/src/publisher.cpp.o[0m
+[12.924s] [ 75%] [32m[1mLinking CXX executable HelloWorldPublisherCpp[0m
+[13.452s] [ 75%] Built target HelloWorldPublisherCpp
+[19.218s] [100%] [32m[1mLinking CXX executable HelloWorldSubscriberCpp[0m
+[19.733s] [100%] Built target HelloWorldSubscriberCpp
+[19.749s] Invoked command in '/home/nipun/ros2RB_ws/build/simple_pkg_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nipun/ros2RB_ws/install/turtlesim_assignment:/home/nipun/ros2RB_ws/install/simple_pkg:/home/nipun/ros2RB_ws/install/rmp_ros2bot_description:/home/nipun/ros2RB_ws/install/assignment1:/home/nipun/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nipun/ros2RB_ws/build/simple_pkg_cpp -- -j3 -l3
+[19.784s] Invoking command in '/home/nipun/ros2RB_ws/build/simple_pkg_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nipun/ros2RB_ws/install/turtlesim_assignment:/home/nipun/ros2RB_ws/install/simple_pkg:/home/nipun/ros2RB_ws/install/rmp_ros2bot_description:/home/nipun/ros2RB_ws/install/assignment1:/home/nipun/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/nipun/ros2RB_ws/build/simple_pkg_cpp
+[19.810s] -- Install configuration: ""
+[19.816s] -- Installing: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/lib/simple_pkg_cpp/HelloWorldPublisherCpp
+[19.817s] -- Set runtime path of "/home/nipun/ros2RB_ws/install/simple_pkg_cpp/lib/simple_pkg_cpp/HelloWorldPublisherCpp" to ""
+[19.822s] -- Installing: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/lib/simple_pkg_cpp/HelloWorldSubscriberCpp
+[19.827s] -- Set runtime path of "/home/nipun/ros2RB_ws/install/simple_pkg_cpp/lib/simple_pkg_cpp/HelloWorldSubscriberCpp" to ""
+[19.827s] -- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/ament_index/resource_index/package_run_dependencies/simple_pkg_cpp
+[19.829s] -- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/ament_index/resource_index/parent_prefix_path/simple_pkg_cpp
+[19.829s] -- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/environment/ament_prefix_path.sh
+[19.829s] -- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/environment/ament_prefix_path.dsv
+[19.830s] -- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/environment/path.sh
+[19.830s] -- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/environment/path.dsv
+[19.830s] -- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/local_setup.bash
+[19.830s] -- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/local_setup.sh
+[19.831s] -- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/local_setup.zsh
+[19.831s] -- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/local_setup.dsv
+[19.831s] -- Installing: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/package.dsv
+[19.832s] -- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/ament_index/resource_index/packages/simple_pkg_cpp
+[19.833s] -- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/cmake/simple_pkg_cppConfig.cmake
+[19.834s] -- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/cmake/simple_pkg_cppConfig-version.cmake
+[19.834s] -- Up-to-date: /home/nipun/ros2RB_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/package.xml
+[19.837s] Invoked command in '/home/nipun/ros2RB_ws/build/simple_pkg_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nipun/ros2RB_ws/install/turtlesim_assignment:/home/nipun/ros2RB_ws/install/simple_pkg:/home/nipun/ros2RB_ws/install/rmp_ros2bot_description:/home/nipun/ros2RB_ws/install/assignment1:/home/nipun/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/nipun/ros2RB_ws/build/simple_pkg_cpp

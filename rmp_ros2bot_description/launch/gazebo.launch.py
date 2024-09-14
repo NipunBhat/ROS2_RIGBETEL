@@ -13,7 +13,7 @@ def generate_launch_description():
                                             'libgazebo_ros_init.so', '-s', 'libgazebo_ros_factory.so'], 
                                            output='screen'),
         launch.actions.DeclareLaunchArgument(name='use_sim_time', default_value='True',
-                                description='Flag to enable use_sim_time and use gazebo time'),
+                                description='Flag to enable use_sim_time'),
         Node(
             package='gazebo_ros',
             executable='spawn_entity.py',
