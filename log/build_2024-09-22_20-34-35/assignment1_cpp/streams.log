@@ -1,0 +1,28 @@
+[0.450s] Invoking command in '/home/nipun/ros2RB_ws/build/assignment1_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nipun/ros2RB_ws/install/turtlesim_assignment:/home/nipun/ros2RB_ws/install/simple_pkg:/home/nipun/ros2RB_ws/install/assignment1:/home/nipun/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nipun/ros2RB_ws/build/assignment1_cpp -- -j3 -l3
+[0.751s] [ 33%] Built target NODE3
+[0.751s] [ 66%] Built target NODE2
+[0.751s] [100%] Built target NODE1
+[0.780s] Invoked command in '/home/nipun/ros2RB_ws/build/assignment1_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nipun/ros2RB_ws/install/turtlesim_assignment:/home/nipun/ros2RB_ws/install/simple_pkg:/home/nipun/ros2RB_ws/install/assignment1:/home/nipun/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nipun/ros2RB_ws/build/assignment1_cpp -- -j3 -l3
+[0.886s] Invoking command in '/home/nipun/ros2RB_ws/build/assignment1_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nipun/ros2RB_ws/install/turtlesim_assignment:/home/nipun/ros2RB_ws/install/simple_pkg:/home/nipun/ros2RB_ws/install/assignment1:/home/nipun/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/nipun/ros2RB_ws/build/assignment1_cpp
+[0.923s] -- Install configuration: ""
+[0.923s] -- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/launch
+[0.923s] -- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/launch/assignment1_cpp_launch.py
+[0.923s] -- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/lib/assignment1_cpp/NODE1
+[0.923s] -- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/lib/assignment1_cpp/NODE2
+[0.923s] -- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/lib/assignment1_cpp/NODE3
+[0.927s] -- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/ament_index/resource_index/package_run_dependencies/assignment1_cpp
+[0.927s] -- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/ament_index/resource_index/parent_prefix_path/assignment1_cpp
+[0.927s] -- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/environment/ament_prefix_path.sh
+[0.928s] -- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/environment/ament_prefix_path.dsv
+[0.928s] -- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/environment/path.sh
+[0.928s] -- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/environment/path.dsv
+[0.928s] -- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/local_setup.bash
+[0.928s] -- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/local_setup.sh
+[0.928s] -- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/local_setup.zsh
+[0.928s] -- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/local_setup.dsv
+[0.928s] -- Installing: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/package.dsv
+[0.940s] -- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/ament_index/resource_index/packages/assignment1_cpp
+[0.941s] -- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/cmake/assignment1_cppConfig.cmake
+[0.943s] -- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/cmake/assignment1_cppConfig-version.cmake
+[0.943s] -- Up-to-date: /home/nipun/ros2RB_ws/install/assignment1_cpp/share/assignment1_cpp/package.xml
+[1.371s] Invoked command in '/home/nipun/ros2RB_ws/build/assignment1_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nipun/ros2RB_ws/install/turtlesim_assignment:/home/nipun/ros2RB_ws/install/simple_pkg:/home/nipun/ros2RB_ws/install/assignment1:/home/nipun/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/nipun/ros2RB_ws/build/assignment1_cpp

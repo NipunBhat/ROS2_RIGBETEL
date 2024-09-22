@@ -46,6 +46,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rmp_ros2bot_description" TYPE DIRECTORY FILES
     "/home/nipun/ros2RB_ws/rmp_ros2bot_description/models"
     "/home/nipun/ros2RB_ws/rmp_ros2bot_description/launch"
+    "/home/nipun/ros2RB_ws/rmp_ros2bot_description/worlds"
     )
 endif()
 

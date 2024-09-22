@@ -1,0 +1,23 @@
+[1.894s] Invoking command in '/home/nipun/ros2RB_ws/assignment1': PYTHONPATH=/home/nipun/ros2RB_ws/build/assignment1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nipun/ros2RB_ws/install/assignment1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/assignment1 build --build-base /home/nipun/ros2RB_ws/build/assignment1/build install --record /home/nipun/ros2RB_ws/build/assignment1/install.log --single-version-externally-managed install_data
+[2.752s] running egg_info
+[2.754s] writing ../build/assignment1/assignment1.egg-info/PKG-INFO
+[2.756s] writing dependency_links to ../build/assignment1/assignment1.egg-info/dependency_links.txt
+[2.756s] writing entry points to ../build/assignment1/assignment1.egg-info/entry_points.txt
+[2.756s] writing requirements to ../build/assignment1/assignment1.egg-info/requires.txt
+[2.756s] writing top-level names to ../build/assignment1/assignment1.egg-info/top_level.txt
+[2.762s] reading manifest file '../build/assignment1/assignment1.egg-info/SOURCES.txt'
+[2.765s] writing manifest file '../build/assignment1/assignment1.egg-info/SOURCES.txt'
+[2.765s] running build
+[2.765s] running build_py
+[2.768s] running install
+[2.770s] running install_lib
+[2.772s] running install_data
+[2.774s] running install_egg_info
+[2.778s] removing '/home/nipun/ros2RB_ws/install/assignment1/lib/python3.10/site-packages/assignment1-0.0.0-py3.10.egg-info' (and everything under it)
+[2.778s] Copying ../build/assignment1/assignment1.egg-info to /home/nipun/ros2RB_ws/install/assignment1/lib/python3.10/site-packages/assignment1-0.0.0-py3.10.egg-info
+[2.781s] running install_scripts
+[2.824s] Installing NODE1 script to /home/nipun/ros2RB_ws/install/assignment1/lib/assignment1
+[2.826s] Installing NODE2 script to /home/nipun/ros2RB_ws/install/assignment1/lib/assignment1
+[2.826s] Installing NODE3 script to /home/nipun/ros2RB_ws/install/assignment1/lib/assignment1
+[2.827s] writing list of installed files to '/home/nipun/ros2RB_ws/build/assignment1/install.log'
+[2.941s] Invoked command in '/home/nipun/ros2RB_ws/assignment1' returned '0': PYTHONPATH=/home/nipun/ros2RB_ws/build/assignment1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nipun/ros2RB_ws/install/assignment1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/assignment1 build --build-base /home/nipun/ros2RB_ws/build/assignment1/build install --record /home/nipun/ros2RB_ws/build/assignment1/install.log --single-version-externally-managed install_data

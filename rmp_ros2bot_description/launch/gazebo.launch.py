@@ -6,11 +6,14 @@ import os
 
 
 def generate_launch_description():
+    print("**** STARTING ****")
+    pkg_share = launch_ros.substitutions.FindPackageShare(package='rmp_ros2bot_description').find('rmp_ros2bot_description')
     use_sim_time = LaunchConfiguration('use_sim_time')
+    world_path=os.path.join(pkg_share, 'worlds/new_world.sdf'),
 
     return launch.LaunchDescription([
         launch.actions.ExecuteProcess(cmd=['gazebo', '--verbose', '-s', 
-                                            'libgazebo_ros_init.so', '-s', 'libgazebo_ros_factory.so'], 
+                                            'libgazebo_ros_init.so', '-s', 'libgazebo_ros_factory.so', world_path], 
                                            output='screen'),
         launch.actions.DeclareLaunchArgument(name='use_sim_time', default_value='True',
                                 description='Flag to enable use_sim_time'),

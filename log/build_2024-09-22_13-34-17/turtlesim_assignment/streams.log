@@ -1,0 +1,27 @@
+[2.184s] Invoking command in '/home/nipun/ros2RB_ws/turtlesim_assignment': PYTHONPATH=/home/nipun/ros2RB_ws/build/turtlesim_assignment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/turtlesim_assignment build --build-base /home/nipun/ros2RB_ws/build/turtlesim_assignment/build install --record /home/nipun/ros2RB_ws/build/turtlesim_assignment/install.log --single-version-externally-managed install_data
+[2.906s] running egg_info
+[2.908s] writing ../build/turtlesim_assignment/turtlesim_assignment.egg-info/PKG-INFO
+[2.910s] writing dependency_links to ../build/turtlesim_assignment/turtlesim_assignment.egg-info/dependency_links.txt
+[2.910s] writing entry points to ../build/turtlesim_assignment/turtlesim_assignment.egg-info/entry_points.txt
+[2.910s] writing requirements to ../build/turtlesim_assignment/turtlesim_assignment.egg-info/requires.txt
+[2.910s] writing top-level names to ../build/turtlesim_assignment/turtlesim_assignment.egg-info/top_level.txt
+[2.916s] reading manifest file '../build/turtlesim_assignment/turtlesim_assignment.egg-info/SOURCES.txt'
+[2.921s] writing manifest file '../build/turtlesim_assignment/turtlesim_assignment.egg-info/SOURCES.txt'
+[2.921s] running build
+[2.921s] running build_py
+[2.926s] running install
+[2.929s] running install_lib
+[2.935s] running install_data
+[2.939s] running install_egg_info
+[2.942s] removing '/home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages/turtlesim_assignment-0.0.0-py3.10.egg-info' (and everything under it)
+[2.943s] Copying ../build/turtlesim_assignment/turtlesim_assignment.egg-info to /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages/turtlesim_assignment-0.0.0-py3.10.egg-info
+[2.945s] running install_scripts
+[2.990s] Installing displace_turtle script to /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/turtlesim_assignment
+[2.997s] Installing square_closed_loop script to /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/turtlesim_assignment
+[2.998s] Installing square_open_loop script to /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/turtlesim_assignment
+[3.000s] Installing star_closed_loop script to /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/turtlesim_assignment
+[3.000s] Installing star_open_loop script to /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/turtlesim_assignment
+[3.001s] Installing triangle_closed_loop script to /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/turtlesim_assignment
+[3.002s] Installing triangle_open_loop script to /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/turtlesim_assignment
+[3.004s] writing list of installed files to '/home/nipun/ros2RB_ws/build/turtlesim_assignment/install.log'
+[3.063s] Invoked command in '/home/nipun/ros2RB_ws/turtlesim_assignment' returned '0': PYTHONPATH=/home/nipun/ros2RB_ws/build/turtlesim_assignment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/turtlesim_assignment build --build-base /home/nipun/ros2RB_ws/build/turtlesim_assignment/build install --record /home/nipun/ros2RB_ws/build/turtlesim_assignment/install.log --single-version-externally-managed install_data
