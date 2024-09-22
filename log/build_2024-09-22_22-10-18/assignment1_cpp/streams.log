@@ -1,0 +1,1 @@
+[0.481s] Invoking command in '/home/nipun/ros2RB_ws/build/assignment1_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nipun/ros2RB_ws/install/turtlesim_assignment:/home/nipun/ros2RB_ws/install/simple_pkg:/home/nipun/ros2RB_ws/install/assignment1:/home/nipun/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nipun/ros2RB_ws/build/assignment1_cpp -- -j3 -l3

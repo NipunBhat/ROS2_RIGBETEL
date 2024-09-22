@@ -1,0 +1,5 @@
+[0.465s] Invoking command in '/home/nipun/ros2RB_ws/build/assignment1_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nipun/ros2RB_ws/install/turtlesim_assignment:/home/nipun/ros2RB_ws/install/simple_pkg:/home/nipun/ros2RB_ws/install/assignment1:/home/nipun/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nipun/ros2RB_ws/build/assignment1_cpp -- -j3 -l3
+[0.552s] [ 33%] Built target NODE1
+[0.603s] [ 66%] Built target NODE3
+[0.665s] [100%] Built target NODE2
+[0.714s] Invoked command in '/home/nipun/ros2RB_ws/build/assignment1_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nipun/ros2RB_ws/install/turtlesim_assignment:/home/nipun/ros2RB_ws/install/simple_pkg:/home/nipun/ros2RB_ws/install/assignment1:/home/nipun/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nipun/ros2RB_ws/build/assignment1_cpp -- -j3 -l3
