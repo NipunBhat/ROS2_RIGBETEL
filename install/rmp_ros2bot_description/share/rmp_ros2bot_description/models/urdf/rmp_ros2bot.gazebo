@@ -6,9 +6,6 @@
 <xacro:property name="lidar_color" value="Gazebo/Grey" />
 <xacro:property name="camera_color" value="Gazebo/Red" />
 
-<gazebo>
-  <plugin name="control" filename="libgazebo_ros_control.so"/>
-</gazebo>
 <gazebo reference="base_link">
   <material>${body_color}</material>
   <mu1>0.2</mu1>
@@ -70,10 +67,6 @@
         </sensor>
 </gazebo>
 
-<gazebo reference="camera_link">
-    <material>${camera_color}</material>
-</gazebo>
-
 <!-- Differential drive plugin for gazebo -->
 	<gazebo>
 	<plugin name='diff_drive' filename='libgazebo_ros_diff_drive.so'>
@@ -82,8 +75,8 @@
 		</ros>
 
 		<!-- wheels -->
-    <right_joint>right_wheel_1</right_joint>
-		<left_joint>left_wheel_1</left_joint>
+    <right_joint>right_wheel_joint</right_joint>
+		<left_joint>left_wheel_joint</left_joint>
 
 		<!-- kinematics -->
 		<wheel_separation>0.19</wheel_separation>
@@ -101,7 +94,6 @@
 		<odometry_frame>odom</odometry_frame>
 		<robot_base_frame>base_link</robot_base_frame>
 	</plugin>
-
 	</gazebo>
-
+  
 </robot>

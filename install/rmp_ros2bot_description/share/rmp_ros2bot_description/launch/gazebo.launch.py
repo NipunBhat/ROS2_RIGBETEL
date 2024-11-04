@@ -12,7 +12,7 @@ def generate_launch_description():
     world_path=os.path.join(pkg_share, 'worlds/new_world.sdf'),
 
     return launch.LaunchDescription([
-        launch.actions.ExecuteProcess(cmd=['gazebo', '--verbose', '-s', 
+        launch.actions.ExecuteProcess(cmd=['gazebo', '--verbose', '-s', 'libgazebo_ros_control.so', '-s', 
                                             'libgazebo_ros_init.so', '-s', 'libgazebo_ros_factory.so', world_path], 
                                            output='screen'),
         launch.actions.DeclareLaunchArgument(name='use_sim_time', default_value='True',

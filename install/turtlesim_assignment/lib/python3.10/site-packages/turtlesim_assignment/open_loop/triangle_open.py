@@ -6,7 +6,7 @@ from geometry_msgs.msg import Twist, Vector3
 from std_msgs.msg import Float32
 import math
 import time
-class TraingleOpenLoop(Node):
+class TriangleClosedLoop(Node):
     def __init__(self)-> None:
         try:
             super().__init__("triangle_open_loop")
@@ -72,7 +72,7 @@ class TraingleOpenLoop(Node):
 def main(args = None):
     try:
         rclpy.init(args = args)
-        shapes = TraingleOpenLoop()
+        shapes = TriangleClosedLoop()
         rclpy.spin(shapes)
         rclpy.shutdown()
     except Exception as e:

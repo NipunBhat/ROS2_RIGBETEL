@@ -1,0 +1,134 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nipun/ros2RB_ws/rmp_ros2bot_description/build/rmp_ros2bot_description
+-- Install configuration: ""
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/build
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/build/.built_by
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/build/COLCON_IGNORE
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/build/rmp_ros2bot_description
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/build/rmp_ros2bot_description/CMakeCache.txt
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/build/rmp_ros2bot_description/colcon_build.rc
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/build/rmp_ros2bot_description/cmake_args.last
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/build/rmp_ros2bot_description/colcon_command_prefix_build.sh
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/build/rmp_ros2bot_description/CMakeFiles
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/build/rmp_ros2bot_description/CMakeFiles/3.22.1
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/build/rmp_ros2bot_description/CMakeFiles/3.22.1/CMakeDetermineCompilerABI_C.bin
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/build/rmp_ros2bot_description/CMakeFiles/3.22.1/CompilerIdC
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/build/rmp_ros2bot_description/CMakeFiles/3.22.1/CompilerIdC/tmp
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/build/rmp_ros2bot_description/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/build/rmp_ros2bot_description/CMakeFiles/3.22.1/CompilerIdC/a.out
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/build/rmp_ros2bot_description/CMakeFiles/3.22.1/CMakeCCompiler.cmake
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/build/rmp_ros2bot_description/CMakeFiles/3.22.1/CMakeDetermineCompilerABI_CXX.bin
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/build/rmp_ros2bot_description/CMakeFiles/3.22.1/CompilerIdCXX
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/build/rmp_ros2bot_description/CMakeFiles/3.22.1/CompilerIdCXX/tmp
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/build/rmp_ros2bot_description/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/build/rmp_ros2bot_description/CMakeFiles/3.22.1/CompilerIdCXX/a.out
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/build/rmp_ros2bot_description/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/build/rmp_ros2bot_description/CMakeFiles/3.22.1/CMakeSystem.cmake
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/build/rmp_ros2bot_description/CMakeFiles/CMakeOutput.log
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/build/rmp_ros2bot_description/CMakeFiles/CMakeTmp
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/build/rmp_ros2bot_description/CMakeFiles/cmake.check_cache
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/build/rmp_ros2bot_description/colcon_command_prefix_build.sh.env
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/LICENSE
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/meshes
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/meshes/right_wheel_1.stl
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/meshes/caster_1.stl
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/meshes/left_wheel_1.stl
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/meshes/lidar_1.stl
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/meshes/base_link.stl
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/CMakeLists.txt
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/urdf
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/urdf/rmp_ros2bot.trans
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/urdf/materials.xacro
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/urdf/rmp_ros2bot.gazebo
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/urdf/rmp_ros2bot.xacro
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/log
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/log/COLCON_IGNORE
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/log/latest
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/log/build_2024-09-22_19-29-04
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/log/build_2024-09-22_19-29-04/events.log
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/log/build_2024-09-22_19-29-04/logger_all.log
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/log/build_2024-09-22_19-29-04/rmp_ros2bot_description
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/log/build_2024-09-22_19-29-04/rmp_ros2bot_description/streams.log
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/log/build_2024-09-22_19-29-04/rmp_ros2bot_description/stdout_stderr.log
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/log/build_2024-09-22_19-29-04/rmp_ros2bot_description/stdout.log
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/log/build_2024-09-22_19-29-04/rmp_ros2bot_description/stderr.log
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/log/build_2024-09-22_19-29-04/rmp_ros2bot_description/command.log
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/log/latest_build
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/package.xml
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/launch
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/launch/urdf.rviz
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/launch/controller.yaml
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/launch/controller.launch
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/launch/display.launch
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/launch/gazebo.launch
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/install
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/install/setup.sh
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/install/setup.ps1
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/install/local_setup.sh
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/install/COLCON_IGNORE
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/install/local_setup.bash
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/install/setup.bash
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/install/local_setup.zsh
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/install/_local_setup_util_ps1.py
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/install/rmp_ros2bot_description
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/install/rmp_ros2bot_description/.catkin
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/install/rmp_ros2bot_description/share
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/install/rmp_ros2bot_description/share/rmp_ros2bot_description
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/install/rmp_ros2bot_description/share/rmp_ros2bot_description/package.sh
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/install/rmp_ros2bot_description/share/rmp_ros2bot_description/package.ps1
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/install/rmp_ros2bot_description/share/rmp_ros2bot_description/package.dsv
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/install/rmp_ros2bot_description/share/rmp_ros2bot_description/package.bash
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/install/rmp_ros2bot_description/share/rmp_ros2bot_description/package.zsh
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/install/rmp_ros2bot_description/share/colcon-core
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/install/rmp_ros2bot_description/share/colcon-core/packages
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/install/rmp_ros2bot_description/share/colcon-core/packages/rmp_ros2bot_description
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/install/_local_setup_util_sh.py
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/install/.colcon_install_layout
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/install/local_setup.ps1
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/models/install/setup.zsh
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/launch
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/launch/gazebo.launch.py
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/launch/state_publisher.launch.py
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/worlds
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/worlds/new_world.sdf
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/ament_index/resource_index/package_run_dependencies/rmp_ros2bot_description
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/ament_index/resource_index/parent_prefix_path/rmp_ros2bot_description
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/environment/ament_prefix_path.sh
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/environment/ament_prefix_path.dsv
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/environment/path.sh
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/environment/path.dsv
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/local_setup.bash
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/local_setup.sh
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/local_setup.zsh
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/local_setup.dsv
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/package.dsv
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/ament_index/resource_index/packages/rmp_ros2bot_description
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/cmake/rmp_ros2bot_descriptionConfig.cmake
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/cmake/rmp_ros2bot_descriptionConfig-version.cmake
+-- Installing: /home/nipun/ros2RB_ws/rmp_ros2bot_description/install/rmp_ros2bot_description/share/rmp_ros2bot_description/package.xml

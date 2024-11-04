@@ -1,0 +1,71 @@
+[1.972s] Invoking command in '/home/nipun/ros2RB_ws/turtlesim_assignment': PYTHONPATH=/home/nipun/ros2RB_ws/build/turtlesim_assignment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/turtlesim_assignment build --build-base /home/nipun/ros2RB_ws/build/turtlesim_assignment/build install --record /home/nipun/ros2RB_ws/build/turtlesim_assignment/install.log --single-version-externally-managed install_data
+[2.903s] running egg_info
+[2.907s] creating ../build/turtlesim_assignment/turtlesim_assignment.egg-info
+[2.909s] writing ../build/turtlesim_assignment/turtlesim_assignment.egg-info/PKG-INFO
+[2.914s] writing dependency_links to ../build/turtlesim_assignment/turtlesim_assignment.egg-info/dependency_links.txt
+[2.914s] writing entry points to ../build/turtlesim_assignment/turtlesim_assignment.egg-info/entry_points.txt
+[2.914s] writing requirements to ../build/turtlesim_assignment/turtlesim_assignment.egg-info/requires.txt
+[2.914s] writing top-level names to ../build/turtlesim_assignment/turtlesim_assignment.egg-info/top_level.txt
+[2.915s] writing manifest file '../build/turtlesim_assignment/turtlesim_assignment.egg-info/SOURCES.txt'
+[2.919s] reading manifest file '../build/turtlesim_assignment/turtlesim_assignment.egg-info/SOURCES.txt'
+[2.921s] writing manifest file '../build/turtlesim_assignment/turtlesim_assignment.egg-info/SOURCES.txt'
+[2.921s] running build
+[2.921s] running build_py
+[2.925s] creating /home/nipun/ros2RB_ws/build/turtlesim_assignment/build
+[2.925s] creating /home/nipun/ros2RB_ws/build/turtlesim_assignment/build/lib
+[2.925s] creating /home/nipun/ros2RB_ws/build/turtlesim_assignment/build/lib/turtlesim_assignment
+[2.926s] copying turtlesim_assignment/move_turtle.py -> /home/nipun/ros2RB_ws/build/turtlesim_assignment/build/lib/turtlesim_assignment
+[2.937s] copying turtlesim_assignment/__init__.py -> /home/nipun/ros2RB_ws/build/turtlesim_assignment/build/lib/turtlesim_assignment
+[2.940s] creating /home/nipun/ros2RB_ws/build/turtlesim_assignment/build/lib/turtlesim_assignment/open_loop
+[2.940s] copying turtlesim_assignment/open_loop/__init__.py -> /home/nipun/ros2RB_ws/build/turtlesim_assignment/build/lib/turtlesim_assignment/open_loop
+[2.940s] copying turtlesim_assignment/open_loop/triangle_open.py -> /home/nipun/ros2RB_ws/build/turtlesim_assignment/build/lib/turtlesim_assignment/open_loop
+[2.942s] copying turtlesim_assignment/open_loop/square_open.py -> /home/nipun/ros2RB_ws/build/turtlesim_assignment/build/lib/turtlesim_assignment/open_loop
+[2.942s] copying turtlesim_assignment/open_loop/star_open_loop.py -> /home/nipun/ros2RB_ws/build/turtlesim_assignment/build/lib/turtlesim_assignment/open_loop
+[2.944s] creating /home/nipun/ros2RB_ws/build/turtlesim_assignment/build/lib/turtlesim_assignment/closed_loop
+[2.944s] copying turtlesim_assignment/closed_loop/triangle_closed.py -> /home/nipun/ros2RB_ws/build/turtlesim_assignment/build/lib/turtlesim_assignment/closed_loop
+[2.944s] copying turtlesim_assignment/closed_loop/star_closed.py -> /home/nipun/ros2RB_ws/build/turtlesim_assignment/build/lib/turtlesim_assignment/closed_loop
+[2.945s] copying turtlesim_assignment/closed_loop/__init__.py -> /home/nipun/ros2RB_ws/build/turtlesim_assignment/build/lib/turtlesim_assignment/closed_loop
+[2.946s] copying turtlesim_assignment/closed_loop/square_closed.py -> /home/nipun/ros2RB_ws/build/turtlesim_assignment/build/lib/turtlesim_assignment/closed_loop
+[2.948s] running install
+[2.951s] running install_lib
+[2.952s] creating /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages/turtlesim_assignment
+[2.953s] copying /home/nipun/ros2RB_ws/build/turtlesim_assignment/build/lib/turtlesim_assignment/move_turtle.py -> /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages/turtlesim_assignment
+[2.953s] creating /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages/turtlesim_assignment/open_loop
+[2.956s] copying /home/nipun/ros2RB_ws/build/turtlesim_assignment/build/lib/turtlesim_assignment/open_loop/__init__.py -> /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages/turtlesim_assignment/open_loop
+[2.956s] copying /home/nipun/ros2RB_ws/build/turtlesim_assignment/build/lib/turtlesim_assignment/open_loop/triangle_open.py -> /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages/turtlesim_assignment/open_loop
+[2.956s] copying /home/nipun/ros2RB_ws/build/turtlesim_assignment/build/lib/turtlesim_assignment/open_loop/square_open.py -> /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages/turtlesim_assignment/open_loop
+[2.956s] copying /home/nipun/ros2RB_ws/build/turtlesim_assignment/build/lib/turtlesim_assignment/open_loop/star_open_loop.py -> /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages/turtlesim_assignment/open_loop
+[2.956s] copying /home/nipun/ros2RB_ws/build/turtlesim_assignment/build/lib/turtlesim_assignment/__init__.py -> /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages/turtlesim_assignment
+[2.957s] creating /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages/turtlesim_assignment/closed_loop
+[2.957s] copying /home/nipun/ros2RB_ws/build/turtlesim_assignment/build/lib/turtlesim_assignment/closed_loop/triangle_closed.py -> /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages/turtlesim_assignment/closed_loop
+[2.957s] copying /home/nipun/ros2RB_ws/build/turtlesim_assignment/build/lib/turtlesim_assignment/closed_loop/star_closed.py -> /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages/turtlesim_assignment/closed_loop
+[2.957s] copying /home/nipun/ros2RB_ws/build/turtlesim_assignment/build/lib/turtlesim_assignment/closed_loop/__init__.py -> /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages/turtlesim_assignment/closed_loop
+[2.957s] copying /home/nipun/ros2RB_ws/build/turtlesim_assignment/build/lib/turtlesim_assignment/closed_loop/square_closed.py -> /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages/turtlesim_assignment/closed_loop
+[2.958s] byte-compiling /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages/turtlesim_assignment/move_turtle.py to move_turtle.cpython-310.pyc
+[2.958s] byte-compiling /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages/turtlesim_assignment/open_loop/__init__.py to __init__.cpython-310.pyc
+[2.958s] byte-compiling /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages/turtlesim_assignment/open_loop/triangle_open.py to triangle_open.cpython-310.pyc
+[2.960s] byte-compiling /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages/turtlesim_assignment/open_loop/square_open.py to square_open.cpython-310.pyc
+[2.963s] byte-compiling /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages/turtlesim_assignment/open_loop/star_open_loop.py to star_open_loop.cpython-310.pyc
+[2.963s] byte-compiling /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages/turtlesim_assignment/__init__.py to __init__.cpython-310.pyc
+[2.966s] byte-compiling /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages/turtlesim_assignment/closed_loop/triangle_closed.py to triangle_closed.cpython-310.pyc
+[2.967s] byte-compiling /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages/turtlesim_assignment/closed_loop/star_closed.py to star_closed.cpython-310.pyc
+[2.970s] byte-compiling /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages/turtlesim_assignment/closed_loop/__init__.py to __init__.cpython-310.pyc
+[2.971s] byte-compiling /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages/turtlesim_assignment/closed_loop/square_closed.py to square_closed.cpython-310.pyc
+[2.975s] running install_data
+[2.975s] creating /home/nipun/ros2RB_ws/install/turtlesim_assignment/share/ament_index
+[2.975s] creating /home/nipun/ros2RB_ws/install/turtlesim_assignment/share/ament_index/resource_index
+[2.975s] creating /home/nipun/ros2RB_ws/install/turtlesim_assignment/share/ament_index/resource_index/packages
+[2.975s] copying resource/turtlesim_assignment -> /home/nipun/ros2RB_ws/install/turtlesim_assignment/share/ament_index/resource_index/packages
+[2.978s] copying package.xml -> /home/nipun/ros2RB_ws/install/turtlesim_assignment/share/turtlesim_assignment
+[2.978s] running install_egg_info
+[2.979s] Copying ../build/turtlesim_assignment/turtlesim_assignment.egg-info to /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages/turtlesim_assignment-0.0.0-py3.10.egg-info
+[2.982s] running install_scripts
+[3.101s] Installing displace_turtle script to /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/turtlesim_assignment
+[3.101s] Installing square_closed_loop script to /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/turtlesim_assignment
+[3.101s] Installing square_open_loop script to /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/turtlesim_assignment
+[3.101s] Installing star_closed_loop script to /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/turtlesim_assignment
+[3.102s] Installing star_open_loop script to /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/turtlesim_assignment
+[3.102s] Installing triangle_closed_loop script to /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/turtlesim_assignment
+[3.106s] Installing triangle_open_loop script to /home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/turtlesim_assignment
+[3.106s] writing list of installed files to '/home/nipun/ros2RB_ws/build/turtlesim_assignment/install.log'
+[3.209s] Invoked command in '/home/nipun/ros2RB_ws/turtlesim_assignment' returned '0': PYTHONPATH=/home/nipun/ros2RB_ws/build/turtlesim_assignment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nipun/ros2RB_ws/install/turtlesim_assignment/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/turtlesim_assignment build --build-base /home/nipun/ros2RB_ws/build/turtlesim_assignment/build install --record /home/nipun/ros2RB_ws/build/turtlesim_assignment/install.log --single-version-externally-managed install_data
